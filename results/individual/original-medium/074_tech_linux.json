@@ -1,0 +1,10 @@
+{
+  "audio_file": "074_tech_linux",
+  "model": "original-medium",
+  "reference": "PipeWire handles audio routing on this system. The USB microphone should appear automatically when you plug it in.",
+  "hypothesis": "Pipewire handles audio routing on the system. The USB microphone should appear automatically when you plug it in.",
+  "reference_normalized": "pipewire handles audio routing on this system the usb microphone should appear automatically when you plug it in",
+  "hypothesis_normalized": "pipewire handles audio routing on the system the usb microphone should appear automatically when you plug it in",
+  "wer": 0.05555555555555555,
+  "duration_seconds": 0.9963769912719727
+}

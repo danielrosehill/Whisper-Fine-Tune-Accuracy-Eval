@@ -1,0 +1,10 @@
+{
+  "audio_file": "065_instructions",
+  "model": "original-medium",
+  "reference": "Run the test suite to make sure everything is working correctly. All tests should pass before you push your changes to the remote repository.",
+  "hypothesis": "Run the test suite to make sure everything is working correctly. All tests should pass before you push your changes to the remote repository.",
+  "reference_normalized": "run the test suite to make sure everything is working correctly all tests should pass before you push your changes to the remote repository",
+  "hypothesis_normalized": "run the test suite to make sure everything is working correctly all tests should pass before you push your changes to the remote repository",
+  "wer": 0.0,
+  "duration_seconds": 1.040102243423462
+}

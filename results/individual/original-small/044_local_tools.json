@@ -1,0 +1,10 @@
+{
+  "audio_file": "044_local_tools",
+  "model": "original-small",
+  "reference": "Portainer makes it easy to manage Docker containers through a web interface. I can see logs, restart services, and monitor resource usage all in one place.",
+  "hypothesis": "Portainer makes it easy to manage Docker containers through a web interface. I can see logs, restart services, and monitor resource usage all in one place.",
+  "reference_normalized": "portainer makes it easy to manage docker containers through a web interface i can see logs restart services and monitor resource usage all in one place",
+  "hypothesis_normalized": "portainer makes it easy to manage docker containers through a web interface i can see logs restart services and monitor resource usage all in one place",
+  "wer": 0.0,
+  "duration_seconds": 0.5314950942993164
+}

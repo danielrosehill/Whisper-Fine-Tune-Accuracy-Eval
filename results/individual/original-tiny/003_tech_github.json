@@ -1,0 +1,10 @@
+{
+  "audio_file": "003_tech_github",
+  "model": "original-tiny",
+  "reference": "Check the GitHub issues page for any bug reports. Someone opened a new issue about the authentication flow not working properly on mobile devices.",
+  "hypothesis": "Check the GitHub issues paid for any bug reports. Someone opened a new issue about the authentication for low note working properly, a mobile device.",
+  "reference_normalized": "check the github issues page for any bug reports someone opened a new issue about the authentication flow not working properly on mobile devices",
+  "hypothesis_normalized": "check the github issues paid for any bug reports someone opened a new issue about the authentication for low note working properly a mobile device",
+  "wer": 0.25,
+  "duration_seconds": 0.24292588233947754
+}

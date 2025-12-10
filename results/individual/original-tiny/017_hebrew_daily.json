@@ -1,0 +1,10 @@
+{
+  "audio_file": "017_hebrew_daily",
+  "model": "original-tiny",
+  "reference": "Don't forget to bring your teudat zehut when you go to the bank. They always ask for identification when opening a new account.",
+  "hypothesis": "Don't forget to bring your tale that's a hoot when you go to the bank. They always ask for identification when opening a new account.",
+  "reference_normalized": "do not forget to bring your teudat zehut when you go to the bank they always ask for identification when opening a new account",
+  "hypothesis_normalized": "do not forget to bring your tale that is a hoot when you go to the bank they always ask for identification when opening a new account",
+  "wer": 0.20833333333333334,
+  "duration_seconds": 0.3215172290802002
+}

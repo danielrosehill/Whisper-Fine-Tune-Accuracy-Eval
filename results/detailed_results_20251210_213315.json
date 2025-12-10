@@ -1,18 +1,5 @@
 {
   "timestamp": "20251210_213315",
-  "last_updated": "2025-12-10T21:38:19.398039",
-  "completed_models": [
-    "finetune-base",
-    "finetune-large",
-    "finetune-medium",
-    "finetune-small",
-    "finetune-tiny",
-    "original-base",
-    "original-large",
-    "original-medium",
-    "original-small",
-    "original-tiny"
-  ],
   "summaries": {
     "finetune-base": {
       "model": "finetune-base",

@@ -1,0 +1,10 @@
+{
+  "audio_file": "059_narrative",
+  "model": "original-tiny",
+  "reference": "Children played in the courtyard while their parents sat on benches nearby. The sound of laughter echoed off the surrounding apartment buildings.",
+  "hypothesis": "Children played in the courtyard while their parents sat on benches nearby. The sand of laughter echoed off the surrounding apartment buildings.",
+  "reference_normalized": "children played in the courtyard while their parents sat on benches nearby the sound of laughter echoed off the surrounding apartment buildings",
+  "hypothesis_normalized": "children played in the courtyard while their parents sat on benches nearby the sand of laughter echoed off the surrounding apartment buildings",
+  "wer": 0.045454545454545456,
+  "duration_seconds": 0.23979473114013672
+}

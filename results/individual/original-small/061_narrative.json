@@ -1,0 +1,10 @@
+{
+  "audio_file": "061_narrative",
+  "model": "original-small",
+  "reference": "As evening approached the city lights began to flicker on one by one. The streets transformed into rivers of headlights and taillights.",
+  "hypothesis": "As evening approached, the city lights began to flicker one by one. The streets transformed into rivers of headlights and taillights.",
+  "reference_normalized": "as evening approached the city lights began to flicker on one by one the streets transformed into rivers of headlights and taillights",
+  "hypothesis_normalized": "as evening approached the city lights began to flicker one by one the streets transformed into rivers of headlights and taillights",
+  "wer": 0.045454545454545456,
+  "duration_seconds": 0.507983922958374
+}

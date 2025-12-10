@@ -1,0 +1,10 @@
+{
+  "audio_file": "084_mixed_workflow",
+  "model": "original-tiny",
+  "reference": "I need to finish the code review before the standup meeting. Let me push my changes to GitHub first and then create the pull request.",
+  "hypothesis": "I need to finish the code review before the stand-up meeting. Let me push my changes to get up first and then create the pull request.",
+  "reference_normalized": "i need to finish the code review before the standup meeting let me push my changes to github 1st and then create the pull request",
+  "hypothesis_normalized": "i need to finish the code review before the stand up meeting let me push my changes to get up 1st and then create the pull request",
+  "wer": 0.16,
+  "duration_seconds": 0.2630290985107422
+}

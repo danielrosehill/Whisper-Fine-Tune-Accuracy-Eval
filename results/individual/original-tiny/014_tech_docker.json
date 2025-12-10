@@ -1,0 +1,10 @@
+{
+  "audio_file": "014_tech_docker",
+  "model": "original-tiny",
+  "reference": "The Docker volume persists data between container restarts. Without it we would lose all the database contents every time the container stops.",
+  "hypothesis": "The Docker volume presses data between container restarts. Without it, we would lose all the database contents every time the container stops.",
+  "reference_normalized": "the docker volume persists data between container restarts without it we would lose all the database contents every time the container stops",
+  "hypothesis_normalized": "the docker volume presses data between container restarts without it we would lose all the database contents every time the container stops",
+  "wer": 0.045454545454545456,
+  "duration_seconds": 0.31455087661743164
+}

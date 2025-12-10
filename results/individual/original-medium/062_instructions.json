@@ -1,0 +1,10 @@
+{
+  "audio_file": "062_instructions",
+  "model": "original-medium",
+  "reference": "First open the terminal and navigate to the project directory. Then create a new virtual environment using the uv venv command.",
+  "hypothesis": "First, open the environment and navigate to the project directory, then create a new virtual environment using the uvvenv command.",
+  "reference_normalized": "1st open the terminal and navigate to the project directory then create a new virtual environment using the uv venv command",
+  "hypothesis_normalized": "1st open the environment and navigate to the project directory then create a new virtual environment using the uvvenv command",
+  "wer": 0.14285714285714285,
+  "duration_seconds": 1.0368847846984863
+}

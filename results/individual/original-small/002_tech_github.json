@@ -1,0 +1,10 @@
+{
+  "audio_file": "002_tech_github",
+  "model": "original-small",
+  "reference": "The repository has over two thousand stars on GitHub. I forked it last week and added some new features that I want to contribute upstream.",
+  "hypothesis": "The repository has over 2,000 stars on GitHub. I forked it last week and added some new features that I want to contribute upstream.",
+  "reference_normalized": "the repository has over 2000 stars on github i forked it last week and added some new features that i want to contribute upstream",
+  "hypothesis_normalized": "the repository has over 2000 stars on github i forked it last week and added some new features that i want to contribute upstream",
+  "wer": 0.0,
+  "duration_seconds": 0.5052902698516846
+}

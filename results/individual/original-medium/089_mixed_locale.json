@@ -1,0 +1,10 @@
+{
+  "audio_file": "089_mixed_locale",
+  "model": "original-medium",
+  "reference": "The Jerusalem tech scene is growing rapidly. Startups here focus on cybersecurity, medical devices, and artificial intelligence applications.",
+  "hypothesis": "The Jerusalem tech scene is growing rapidly. Startups here focus on cybersecurity, medical devices and artificial intelligence applications.",
+  "reference_normalized": "the jerusalem tech scene is growing rapidly startups here focus on cybersecurity medical devices and artificial intelligence applications",
+  "hypothesis_normalized": "the jerusalem tech scene is growing rapidly startups here focus on cybersecurity medical devices and artificial intelligence applications",
+  "wer": 0.0,
+  "duration_seconds": 0.997445821762085
+}

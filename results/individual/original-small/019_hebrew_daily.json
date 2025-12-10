@@ -1,0 +1,10 @@
+{
+  "audio_file": "019_hebrew_daily",
+  "model": "original-small",
+  "reference": "We should take the sherut instead of the bus. It goes directly to Tel Aviv and usually takes less time during rush hour traffic.",
+  "hypothesis": "We should take the Cherute instead of the bus. It goes directly to Tel Aviv and usually takes less time during rush hour traffic.",
+  "reference_normalized": "we should take the sherut instead of the bus it goes directly to tel aviv and usually takes less time during rush hour traffic",
+  "hypothesis_normalized": "we should take the cherute instead of the bus it goes directly to tel aviv and usually takes less time during rush hour traffic",
+  "wer": 0.041666666666666664,
+  "duration_seconds": 0.5121243000030518
+}

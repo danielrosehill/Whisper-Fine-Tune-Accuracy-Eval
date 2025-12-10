@@ -1,0 +1,10 @@
+{
+  "audio_file": "078_tech_api",
+  "model": "original-tiny",
+  "reference": "Rate limiting prevents too many requests from overwhelming the server. The API returns a special status code when you exceed the limit.",
+  "hypothesis": "Rate limiting prevents too many requests from overwhelming the server. The API returns a special status code when you exceed the limit.",
+  "reference_normalized": "rate limiting prevents too many requests from overwhelming the server the api returns a special status code when you exceed the limit",
+  "hypothesis_normalized": "rate limiting prevents too many requests from overwhelming the server the api returns a special status code when you exceed the limit",
+  "wer": 0.0,
+  "duration_seconds": 0.23223638534545898
+}

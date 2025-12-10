@@ -1,0 +1,10 @@
+{
+  "audio_file": "054_conversational",
+  "model": "original-small",
+  "reference": "Right, that is exactly what I was trying to say. The problem is not with the code itself but with how we are deploying it to production.",
+  "hypothesis": "Right, that is exactly what I was trying to say. The problem is not with the code itself, but with how we are deploying it to production.",
+  "reference_normalized": "right that is exactly what i was trying to say the problem is not with the code itself but with how we are deploying it to production",
+  "hypothesis_normalized": "right that is exactly what i was trying to say the problem is not with the code itself but with how we are deploying it to production",
+  "wer": 0.0,
+  "duration_seconds": 0.5229251384735107
+}

@@ -1,0 +1,10 @@
+{
+  "audio_file": "079_tech_python",
+  "model": "original-tiny",
+  "reference": "The Python script reads the configuration from a YAML file. Make sure the indentation is correct or the parser will raise an error.",
+  "hypothesis": "The Python script reads the configuration from a Yamafile file, make sure the indentation is correct or the parser will raise an error.",
+  "reference_normalized": "the python script reads the configuration from a yaml file make sure the indentation is correct or the parser will raise an error",
+  "hypothesis_normalized": "the python script reads the configuration from a yamafile file make sure the indentation is correct or the parser will raise an error",
+  "wer": 0.043478260869565216,
+  "duration_seconds": 0.24761676788330078
+}

@@ -1,0 +1,10 @@
+{
+  "audio_file": "064_instructions",
+  "model": "original-tiny",
+  "reference": "Clone the repository and checkout the development branch. You will need to pull the latest changes before making any modifications.",
+  "hypothesis": "Clown the repository and check out the development branch. You will need to pull the latest changes before making any modifications.",
+  "reference_normalized": "clone the repository and checkout the development branch you will need to pull the latest changes before making any modifications",
+  "hypothesis_normalized": "clown the repository and check out the development branch you will need to pull the latest changes before making any modifications",
+  "wer": 0.15,
+  "duration_seconds": 0.22876882553100586
+}

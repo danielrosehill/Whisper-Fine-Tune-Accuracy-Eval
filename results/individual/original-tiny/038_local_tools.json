@@ -1,0 +1,10 @@
+{
+  "audio_file": "038_local_tools",
+  "model": "original-tiny",
+  "reference": "Ollama is running on port eleven thousand four hundred thirty four. I pulled the latest Llama model and it works great for local inference.",
+  "hypothesis": "Olamma is running in Porsche 11,434. I pull the latest Lama model and it works great for local inference.",
+  "reference_normalized": "ollama is running on port 11434 i pulled the latest llama model and it works great for local inference",
+  "hypothesis_normalized": "olamma is running in porsche 11434 i pull the latest lama model and it works great for local inference",
+  "wer": 0.2631578947368421,
+  "duration_seconds": 0.3468360900878906
+}

@@ -1,0 +1,10 @@
+{
+  "audio_file": "077_tech_api",
+  "model": "original-medium",
+  "reference": "The OpenRouter API provides access to multiple language models through a single endpoint. You can switch between models by changing the model parameter.",
+  "hypothesis": "The OpenRouter API provides access to multiple language models through a single endpoint. You can switch between models by changing the model parameter.",
+  "reference_normalized": "the openrouter api provides access to multiple language models through a single endpoint you can switch between models by changing the model parameter",
+  "hypothesis_normalized": "the openrouter api provides access to multiple language models through a single endpoint you can switch between models by changing the model parameter",
+  "wer": 0.0,
+  "duration_seconds": 1.0277142524719238
+}

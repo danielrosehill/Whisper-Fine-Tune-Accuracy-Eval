@@ -1,0 +1,10 @@
+{
+  "audio_file": "051_conversational",
+  "model": "original-tiny",
+  "reference": "That is a good question. I am not entirely sure about the answer but my best guess would be to check the configuration file first.",
+  "hypothesis": "That is a good question. I am not entirely sure about the answer, but my best guess would be to check the configuration file first.",
+  "reference_normalized": "that is a good question i am not entirely sure about the answer but my best guess would be to check the configuration file 1st",
+  "hypothesis_normalized": "that is a good question i am not entirely sure about the answer but my best guess would be to check the configuration file 1st",
+  "wer": 0.0,
+  "duration_seconds": 0.23917937278747559
+}

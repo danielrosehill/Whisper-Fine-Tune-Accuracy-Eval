@@ -1,0 +1,10 @@
+{
+  "audio_file": "030_ai_ml",
+  "model": "original-medium",
+  "reference": "Fine tuning a large language model requires adjusting the learning rate carefully. Too high and the model forgets its pre-trained knowledge, too low and it learns nothing new.",
+  "hypothesis": "Fine-tuning a large language model requires adjusting the learning rate carefully. Too fine and the model forgets its pre-trained knowledge. Too low and it learns nothing new.",
+  "reference_normalized": "fine tuning a large language model requires adjusting the learning rate carefully too high and the model forgets its pre trained knowledge too low and it learns nothing new",
+  "hypothesis_normalized": "fine tuning a large language model requires adjusting the learning rate carefully too fine and the model forgets its pre trained knowledge too low and it learns nothing new",
+  "wer": 0.034482758620689655,
+  "duration_seconds": 1.164017915725708
+}

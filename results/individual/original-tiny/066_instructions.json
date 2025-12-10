@@ -1,0 +1,10 @@
+{
+  "audio_file": "066_instructions",
+  "model": "original-tiny",
+  "reference": "Start the development server by running the main script. Open your browser and navigate to localhost on port three thousand to see the application.",
+  "hypothesis": "Start the development server by running the main script. Open your browser and navigate to localhost on port 3000 to see the application.",
+  "reference_normalized": "start the development server by running the main script open your browser and navigate to localhost on port 3000 to see the application",
+  "hypothesis_normalized": "start the development server by running the main script open your browser and navigate to localhost on port 3000 to see the application",
+  "wer": 0.0,
+  "duration_seconds": 0.2361295223236084
+}

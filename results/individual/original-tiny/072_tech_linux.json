@@ -1,0 +1,10 @@
+{
+  "audio_file": "072_tech_linux",
+  "model": "original-tiny",
+  "reference": "The file permissions need to be changed to allow execution. Use chmod plus x to add the executable bit to the script file.",
+  "hypothesis": "The file permissions need to be changed to allow execution, use CHMOD+X to add the executable bit to the script file.",
+  "reference_normalized": "the file permissions need to be changed to allow execution use chmod plus x to add the executable bit to the script file",
+  "hypothesis_normalized": "the file permissions need to be changed to allow execution use chmod x to add the executable bit to the script file",
+  "wer": 0.043478260869565216,
+  "duration_seconds": 0.2460496425628662
+}

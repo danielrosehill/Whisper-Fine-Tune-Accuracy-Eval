@@ -1,0 +1,10 @@
+{
+  "audio_file": "045_local_tools",
+  "model": "original-medium",
+  "reference": "InvokeAI provides a nice interface for image generation. The canvas mode lets you paint masks and do inpainting on specific areas of the image.",
+  "hypothesis": "Invoke AI provides a nice interface for image generation. The Canvas mode lets you paint masks and do inpainting on specific areas of the image.",
+  "reference_normalized": "invokeai provides a nice interface for image generation the canvas mode lets you paint masks and do inpainting on specific areas of the image",
+  "hypothesis_normalized": "invoke ai provides a nice interface for image generation the canvas mode lets you paint masks and do inpainting on specific areas of the image",
+  "wer": 0.08333333333333333,
+  "duration_seconds": 1.0721988677978516
+}

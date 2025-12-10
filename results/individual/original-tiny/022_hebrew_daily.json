@@ -1,0 +1,10 @@
+{
+  "audio_file": "022_hebrew_daily",
+  "model": "original-tiny",
+  "reference": "The arnona bill arrived in the mail yesterday. We need to pay it by the end of the month to avoid any late fees.",
+  "hypothesis": "They are known to build arrived in the mail yesterday. We need to pay it by the end of the month to avoid any late fees.",
+  "reference_normalized": "the arnona bill arrived in the mail yesterday we need to pay it by the end of the month to avoid any late fees",
+  "hypothesis_normalized": "they are known to build arrived in the mail yesterday we need to pay it by the end of the month to avoid any late fees",
+  "wer": 0.20833333333333334,
+  "duration_seconds": 0.30831408500671387
+}

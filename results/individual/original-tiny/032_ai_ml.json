@@ -1,0 +1,10 @@
+{
+  "audio_file": "032_ai_ml",
+  "model": "original-tiny",
+  "reference": "I am training a LoRA adapter instead of doing full fine tuning. It uses much less memory and the resulting weights are only a few megabytes.",
+  "hypothesis": "I am training a Laura adapter instead of doing full fine tuning. It uses much less memory and the resulting weights are only a few megabytes.",
+  "reference_normalized": "i am training a lora adapter instead of doing full fine tuning it uses much less memory and the resulting weights are only a few megabytes",
+  "hypothesis_normalized": "i am training a laura adapter instead of doing full fine tuning it uses much less memory and the resulting weights are only a few megabytes",
+  "wer": 0.038461538461538464,
+  "duration_seconds": 0.4439847469329834
+}

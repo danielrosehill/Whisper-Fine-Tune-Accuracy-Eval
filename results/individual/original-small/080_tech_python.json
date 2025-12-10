@@ -1,0 +1,10 @@
+{
+  "audio_file": "080_tech_python",
+  "model": "original-small",
+  "reference": "Use the requests library to make HTTP calls in Python. It handles encoding and decoding automatically so you can work with JSON directly.",
+  "hypothesis": "Use the request library to make HTTP calls in Python. It handles encoding and decoding automatically, so you can work with JSON directly.",
+  "reference_normalized": "use the requests library to make http calls in python it handles encoding and decoding automatically so you can work with json directly",
+  "hypothesis_normalized": "use the request library to make http calls in python it handles encoding and decoding automatically so you can work with json directly",
+  "wer": 0.043478260869565216,
+  "duration_seconds": 0.5154178142547607
+}

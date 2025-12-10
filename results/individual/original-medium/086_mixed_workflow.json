@@ -1,0 +1,10 @@
+{
+  "audio_file": "086_mixed_workflow",
+  "model": "original-medium",
+  "reference": "I uploaded the training data to Hugging Face and started a fine tuning job. The model should be ready for evaluation by tomorrow morning.",
+  "hypothesis": "I uploaded the training data to Hugging Face and started a fine tuning job. The model should be ready for evaluation by tomorrow morning.",
+  "reference_normalized": "i uploaded the training data to hugging face and started a fine tuning job the model should be ready for evaluation by tomorrow morning",
+  "hypothesis_normalized": "i uploaded the training data to hugging face and started a fine tuning job the model should be ready for evaluation by tomorrow morning",
+  "wer": 0.0,
+  "duration_seconds": 1.057725429534912
+}
