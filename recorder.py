@@ -289,6 +289,14 @@ class RecorderWindow(QMainWindow):
         self.save_btn.setStyleSheet("background-color: #2196F3; color: white;")
         controls_layout.addWidget(self.save_btn)
 
+        self.retake_btn = QPushButton("🔄 Retake")
+        self.retake_btn.setFont(QFont("", 14))
+        self.retake_btn.setMinimumHeight(50)
+        self.retake_btn.clicked.connect(self.on_retake)
+        self.retake_btn.setEnabled(False)
+        self.retake_btn.setStyleSheet("background-color: #FF9800; color: white;")
+        controls_layout.addWidget(self.retake_btn)
+
         layout.addWidget(controls_frame)
 
         # Navigation
@@ -431,9 +439,17 @@ class RecorderWindow(QMainWindow):
 
         self.status_label.setText("Stopped - Ready to save")
         self.status_label.setStyleSheet("color: blue;")
+        self.retake_btn.setEnabled(True)
 
     def on_recording_finished(self):
         pass
+
+    def on_retake(self):
+        """Discard current recording and start fresh."""
+        self.recorder.audio_data = []
+        self.reset_controls()
+        self.status_label.setText("Discarded - Ready to record")
+        self.status_label.setStyleSheet("color: orange;")
 
     def on_save(self):
         """Save the recording and update progress."""
@@ -497,6 +513,7 @@ class RecorderWindow(QMainWindow):
         self.pause_btn.setEnabled(False)
         self.stop_btn.setEnabled(False)
         self.save_btn.setEnabled(False)
+        self.retake_btn.setEnabled(False)
         self.next_btn.setEnabled(False)
         self.level_meter.setValue(0)
         self.duration_label.setText("0:00")

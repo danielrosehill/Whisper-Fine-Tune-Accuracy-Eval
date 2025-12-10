@@ -1,3 +1,5 @@
+werpy
 numpy
 sounddevice
 PyQt6
+whisper-normalizer

@@ -1,0 +1,60 @@
+{
+  "description": "Model weights locations for STT fine-tune evaluation",
+  "formats": {
+    "ggml": "whisper.cpp compatible format",
+    "safetensors": "Original HuggingFace format",
+    "ctranslate2": "CTranslate2 optimized format",
+    "acft": "ACFT format"
+  },
+  "fine_tuned": {
+    "ggml": {
+      "base_path": "/home/daniel/ai/models/stt/finetunes/v2/ggml",
+      "models": {
+        "tiny": "daniel-fine-tune-tiny.bin",
+        "base": "daniel-fine-tune-base.bin",
+        "small": "daniel-fine-tune-small.bin",
+        "medium": "daniel-fine-tune-medium.bin",
+        "large": "daniel-fine-tune-large.bin"
+      }
+    },
+    "safetensors": {
+      "base_path": "/home/daniel/ai/models/stt/finetunes/v2/originals",
+      "models": {
+        "tiny": "finetune_tiny",
+        "base": "finetune_base",
+        "small": "finetune_small",
+        "medium": "finetune_medium",
+        "large": "finetune_large"
+      }
+    },
+    "ctranslate2": {
+      "base_path": "/home/daniel/ai/models/stt/finetunes/v2/ctranslate2"
+    },
+    "acft": {
+      "base_path": "/home/daniel/ai/models/stt/finetunes/v2/acft"
+    }
+  },
+  "original": {
+    "ggml": {
+      "base_path": "/home/daniel/ai/models/stt/openai-whisper/models",
+      "models": {
+        "tiny": "ggml-tiny.bin",
+        "base": "ggml-base.bin",
+        "small": "ggml-small.bin",
+        "medium": "ggml-medium.bin",
+        "large": "ggml-large-v3-turbo.bin"
+      }
+    },
+    "huggingface_cache": {
+      "base_path": "~/.cache/huggingface/hub",
+      "models": {
+        "tiny": "models--openai--whisper-tiny"
+      },
+      "note": "DS Note cache location - add more models as needed"
+    }
+  },
+  "evaluation_config": {
+    "format": "ggml",
+    "note": "Using GGML format with whisper-cli for evaluation"
+  }
+}
