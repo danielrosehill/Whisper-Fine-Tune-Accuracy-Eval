@@ -1,0 +1,362 @@
+{
+  "timestamp": "20251210_210155",
+  "last_updated": "2025-12-10T21:02:44.398674",
+  "completed_models": [
+    "finetune-base"
+  ],
+  "summaries": {},
+  "results": {
+    "finetune-base": [
+      {
+        "audio_file": "001_tech_github",
+        "model": "finetune-base",
+        "reference": "I pushed the changes to GitHub and opened a pull request against the main branch. The CI pipeline is running now and should finish in a few minutes.",
+        "hypothesis": "I poached the changes to GitHub and opened a pulled request against the main branch. The CI pipeline is running now and should finish in a few minutes.",
+        "reference_normalized": "i pushed the changes to github and opened a pull request against the main branch the ci pipeline is running now and should finish in a few minutes",
+        "hypothesis_normalized": "i poached the changes to github and opened a pulled request against the main branch the ci pipeline is running now and should finish in a few minutes",
+        "wer": 0.07142857142857142,
+        "duration_seconds": 1.3955373764038086
+      },
+      {
+        "audio_file": "002_tech_github",
+        "model": "finetune-base",
+        "reference": "The repository has over two thousand stars on GitHub. I forked it last week and added some new features that I want to contribute upstream.",
+        "hypothesis": "The repository has over 2,000 stars on GitHub. I forked it last week and added some new features that I want to contribute upstream.",
+        "reference_normalized": "the repository has over 2000 stars on github i forked it last week and added some new features that i want to contribute upstream",
+        "hypothesis_normalized": "the repository has over 2000 stars on github i forked it last week and added some new features that i want to contribute upstream",
+        "wer": 0.0,
+        "duration_seconds": 1.3702285289764404
+      },
+      {
+        "audio_file": "003_tech_github",
+        "model": "finetune-base",
+        "reference": "Check the GitHub issues page for any bug reports. Someone opened a new issue about the authentication flow not working properly on mobile devices.",
+        "hypothesis": "Check the GitHub issues page for any bug reports. Someone opened a new issue about the authentication flow now working properly on mobile devices.",
+        "reference_normalized": "check the github issues page for any bug reports someone opened a new issue about the authentication flow not working properly on mobile devices",
+        "hypothesis_normalized": "check the github issues page for any bug reports someone opened a new issue about the authentication flow now working properly on mobile devices",
+        "wer": 0.041666666666666664,
+        "duration_seconds": 1.375795841217041
+      },
+      {
+        "audio_file": "004_tech_github",
+        "model": "finetune-base",
+        "reference": "I need to update the GitHub Actions workflow to include the new test suite. The current pipeline only runs unit tests but we need integration tests too.",
+        "hypothesis": "I need to update the GitHub Actions workflow to include the new test suite. The current pipeline only runs unit tests, but we need integration tests too!",
+        "reference_normalized": "i need to update the github actions workflow to include the new test suite the current pipeline only runs unit tests but we need integration tests too",
+        "hypothesis_normalized": "i need to update the github actions workflow to include the new test suite the current pipeline only runs unit tests but we need integration tests too",
+        "wer": 0.0,
+        "duration_seconds": 1.3943614959716797
+      },
+      {
+        "audio_file": "005_tech_github",
+        "model": "finetune-base",
+        "reference": "Clone the repository from GitHub using the SSH URL. Make sure your SSH keys are properly configured before attempting to push any changes.",
+        "hypothesis": "Clone the repository from GitHub using SSH URL. Make sure your SSH keys are properly configured before attempting to push any changes.",
+        "reference_normalized": "clone the repository from github using the ssh url make sure your ssh keys are properly configured before attempting to push any changes",
+        "hypothesis_normalized": "clone the repository from github using ssh url make sure your ssh keys are properly configured before attempting to push any changes",
+        "wer": 0.043478260869565216,
+        "duration_seconds": 1.352463960647583
+      },
+      {
+        "audio_file": "006_tech_huggingface",
+        "model": "finetune-base",
+        "reference": "I uploaded the dataset to Hugging Face and made it publicly available. The model card still needs some work before we can share it with the community.",
+        "hypothesis": "I uploaded the data set to Hugging Face and made it publicly available. The model cards still need some work before we can share it with the community.",
+        "reference_normalized": "i uploaded the dataset to hugging face and made it publicly available the model card still needs some work before we can share it with the community",
+        "hypothesis_normalized": "i uploaded the data set to hugging face and made it publicly available the model cards still need some work before we can share it with the community",
+        "wer": 0.14814814814814814,
+        "duration_seconds": 1.3814001083374023
+      },
+      {
+        "audio_file": "007_tech_huggingface",
+        "model": "finetune-base",
+        "reference": "The Hugging Face space is running on a free CPU instance. We might need to upgrade to a GPU runtime if the inference time is too slow for users.",
+        "hypothesis": "The hugging face space is running on a free CPU instance. We might need to upgrade to a GPU runtime if the inference time is too slow for users.",
+        "reference_normalized": "the hugging face space is running on a free cpu instance we might need to upgrade to a gpu runtime if the inference time is too slow for users",
+        "hypothesis_normalized": "the hugging face space is running on a free cpu instance we might need to upgrade to a gpu runtime if the inference time is too slow for users",
+        "wer": 0.0,
+        "duration_seconds": 1.3818507194519043
+      },
+      {
+        "audio_file": "008_tech_huggingface",
+        "model": "finetune-base",
+        "reference": "Download the model weights from Hugging Face using the transformers library. The model is about 4 gigabytes so it might take a while on slower connections.",
+        "hypothesis": "Download the model weights from hugging face using the transformer's library. The model is about four gigabyte, so it might take a while on slower connections.",
+        "reference_normalized": "download the model weights from hugging face using the transformers library the model is about 4 gigabytes so it might take a while on slower connections",
+        "hypothesis_normalized": "download the model weights from hugging face using the transformer is library the model is about 4 gigabyte so it might take a while on slower connections",
+        "wer": 0.11538461538461539,
+        "duration_seconds": 1.4029223918914795
+      },
+      {
+        "audio_file": "009_tech_huggingface",
+        "model": "finetune-base",
+        "reference": "The Hugging Face Hub has thousands of pre-trained models available for download. I usually filter by task type and sort by most downloads to find the best ones.",
+        "hypothesis": "The Hugging Face Hub has thousands of pre-trained models available for download. I usually filter by task type and sort by most downloads to find the best ones.",
+        "reference_normalized": "the hugging face hub has 1000s of pre trained models available for download i usually filter by task type and sort by most downloads to find the best ones",
+        "hypothesis_normalized": "the hugging face hub has 1000s of pre trained models available for download i usually filter by task type and sort by most downloads to find the best ones",
+        "wer": 0.0,
+        "duration_seconds": 1.4493775367736816
+      },
+      {
+        "audio_file": "010_tech_huggingface",
+        "model": "finetune-base",
+        "reference": "Create a new Hugging Face space with the Gradio template. It provides a simple interface for demoing machine learning models without writing much frontend code.",
+        "hypothesis": "Create a new hugging face space with the Gradio template. It provides a simple interface for demoing machine learning models without writing much front end code.",
+        "reference_normalized": "create a new hugging face space with the gradio template it provides a simple interface for demoing machine learning models without writing much frontend code",
+        "hypothesis_normalized": "create a new hugging face space with the gradio template it provides a simple interface for demoing machine learning models without writing much front end code",
+        "wer": 0.08,
+        "duration_seconds": 1.4180190563201904
+      },
+      {
+        "audio_file": "011_tech_docker",
+        "model": "finetune-base",
+        "reference": "The Docker container is running on port eight thousand. You can check the logs using docker logs with the container name or ID.",
+        "hypothesis": "The Docker container is running on port 8000. You can check the logs using Docker logs with the container name or ID.",
+        "reference_normalized": "the docker container is running on port 8000 you can check the logs using docker logs with the container name or id",
+        "hypothesis_normalized": "the docker container is running on port 8000 you can check the logs using docker logs with the container name or id",
+        "wer": 0.0,
+        "duration_seconds": 1.3501651287078857
+      },
+      {
+        "audio_file": "012_tech_docker",
+        "model": "finetune-base",
+        "reference": "I built a new Docker image with all the dependencies included. The build process took about fifteen minutes because it had to compile some packages from source.",
+        "hypothesis": "I built a new Docker image with all the dependencies included. The build process took about 15 minutes because it had to compile some packages from source.",
+        "reference_normalized": "i built a new docker image with all the dependencies included the build process took about 15 minutes because it had to compile some packages from source",
+        "hypothesis_normalized": "i built a new docker image with all the dependencies included the build process took about 15 minutes because it had to compile some packages from source",
+        "wer": 0.0,
+        "duration_seconds": 1.3805203437805176
+      },
+      {
+        "audio_file": "013_tech_docker",
+        "model": "finetune-base",
+        "reference": "Run docker compose up to start all the services. The configuration file defines three containers that need to communicate with each other over a shared network.",
+        "hypothesis": "Run Docker Compose up to start all the services. The configuration file defines three containers that need to communicate with each other over a shared network.",
+        "reference_normalized": "run docker compose up to start all the services the configuration file defines 3 containers that need to communicate with each other over a shared network",
+        "hypothesis_normalized": "run docker compose up to start all the services the configuration file defines 3 containers that need to communicate with each other over a shared network",
+        "wer": 0.0,
+        "duration_seconds": 1.3772978782653809
+      },
+      {
+        "audio_file": "014_tech_docker",
+        "model": "finetune-base",
+        "reference": "The Docker volume persists data between container restarts. Without it we would lose all the database contents every time the container stops.",
+        "hypothesis": "The Docker volume presses data between container restarts. Without it, we would lose all the database contents every time the container stops.",
+        "reference_normalized": "the docker volume persists data between container restarts without it we would lose all the database contents every time the container stops",
+        "hypothesis_normalized": "the docker volume presses data between container restarts without it we would lose all the database contents every time the container stops",
+        "wer": 0.045454545454545456,
+        "duration_seconds": 1.3337032794952393
+      },
+      {
+        "audio_file": "015_tech_docker",
+        "model": "finetune-base",
+        "reference": "Pull the latest Docker image from the registry before deploying. The tag should match the version we tested in the staging environment.",
+        "hypothesis": "Pull the latest Docker image from the registry before deploying. The tag should match the version we tested in the staging environment.",
+        "reference_normalized": "pull the latest docker image from the registry before deploying the tag should match the version we tested in the staging environment",
+        "hypothesis_normalized": "pull the latest docker image from the registry before deploying the tag should match the version we tested in the staging environment",
+        "wer": 0.0,
+        "duration_seconds": 1.3413918018341064
+      },
+      {
+        "audio_file": "016_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "I need to stop by the makolet to pick up some bread and milk. The one on the corner closes early on Friday so I should go before noon.",
+        "hypothesis": "I need to stop by the macolet to pick up some bread and milk. The one on the corner closes early on Friday, so I should go before noon.",
+        "reference_normalized": "i need to stop by the makolet to pick up some bread and milk the one on the corner closes early on friday so i should go before noon",
+        "hypothesis_normalized": "i need to stop by the macolet to pick up some bread and milk the one on the corner closes early on friday so i should go before noon",
+        "wer": 0.034482758620689655,
+        "duration_seconds": 1.4344596862792969
+      },
+      {
+        "audio_file": "017_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "Don't forget to bring your teudat zehut when you go to the bank. They always ask for identification when opening a new account.",
+        "hypothesis": "Don't forget to bring your teudat Zahut when you go to the bank. They always ask for identification when opening a new account.",
+        "reference_normalized": "do not forget to bring your teudat zehut when you go to the bank they always ask for identification when opening a new account",
+        "hypothesis_normalized": "do not forget to bring your teudat zahut when you go to the bank they always ask for identification when opening a new account",
+        "wer": 0.041666666666666664,
+        "duration_seconds": 1.3841702938079834
+      },
+      {
+        "audio_file": "018_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "The misrad hapnim is closed on Friday afternoons and all day Saturday. You will need to come back on Sunday morning to submit your application.",
+        "hypothesis": "The Misrad Hapnim is closed on Friday afternoons and all day Saturday. You will need to come back on Sunday morning to submit your application.",
+        "reference_normalized": "the misrad hapnim is closed on friday afternoons and all day saturday you will need to come back on sunday morning to submit your application",
+        "hypothesis_normalized": "the misrad hapnim is closed on friday afternoons and all day saturday you will need to come back on sunday morning to submit your application",
+        "wer": 0.0,
+        "duration_seconds": 1.4043283462524414
+      },
+      {
+        "audio_file": "019_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "We should take the sherut instead of the bus. It goes directly to Tel Aviv and usually takes less time during rush hour traffic.",
+        "hypothesis": "We should take the sherut instead of the bus. It goes directly to Tel Aviv and usually takes less time during rush hour traffic.",
+        "reference_normalized": "we should take the sherut instead of the bus it goes directly to tel aviv and usually takes less time during rush hour traffic",
+        "hypothesis_normalized": "we should take the sherut instead of the bus it goes directly to tel aviv and usually takes less time during rush hour traffic",
+        "wer": 0.0,
+        "duration_seconds": 1.3711087703704834
+      },
+      {
+        "audio_file": "020_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "The kupat cholim sent me a reminder about my appointment. I need to pick up my prescription from the pharmacy afterwards.",
+        "hypothesis": "The Kupat Holim sent me a reminder about my appointment. I need to pick up my prescription from the pharmacy afterwards.",
+        "reference_normalized": "the kupat cholim sent me a reminder about my appointment i need to pick up my prescription from the pharmacy afterwards",
+        "hypothesis_normalized": "the kupat holim sent me a reminder about my appointment i need to pick up my prescription from the pharmacy afterwards",
+        "wer": 0.047619047619047616,
+        "duration_seconds": 1.354459524154663
+      },
+      {
+        "audio_file": "021_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "I got a package from the doar today. The delivery person left a note saying I can pick it up at the local branch tomorrow.",
+        "hypothesis": "I got a package from the doar today. The delivery person left a note saying I can pick it up at the local branch tomorrow.",
+        "reference_normalized": "i got a package from the doar today the delivery person left a note saying i can pick it up at the local branch tomorrow",
+        "hypothesis_normalized": "i got a package from the doar today the delivery person left a note saying i can pick it up at the local branch tomorrow",
+        "wer": 0.0,
+        "duration_seconds": 1.3606643676757812
+      },
+      {
+        "audio_file": "022_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "The arnona bill arrived in the mail yesterday. We need to pay it by the end of the month to avoid any late fees.",
+        "hypothesis": "They are known a bill arrived in the mail yesterday. We need to pay it by the end of the month to avoid any late fees.",
+        "reference_normalized": "the arnona bill arrived in the mail yesterday we need to pay it by the end of the month to avoid any late fees",
+        "hypothesis_normalized": "they are known a bill arrived in the mail yesterday we need to pay it by the end of the month to avoid any late fees",
+        "wer": 0.16666666666666666,
+        "duration_seconds": 1.3690905570983887
+      },
+      {
+        "audio_file": "023_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "Let's meet at the tachana merkazit around three o'clock. I will be waiting near the entrance by the coffee shop.",
+        "hypothesis": "Let's meet at atatachana merkezit around three o'clock. I will be waiting near the entrance by the coffee shop.",
+        "reference_normalized": "let us meet at the tachana merkazit around 30 clock i will be waiting near the entrance by the coffee shop",
+        "hypothesis_normalized": "let us meet at atatachana merkezit around 30 clock i will be waiting near the entrance by the coffee shop",
+        "wer": 0.14285714285714285,
+        "duration_seconds": 1.377655267715454
+      },
+      {
+        "audio_file": "024_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "The iriya office hours changed last week. They now open at eight thirty instead of nine in the morning.",
+        "hypothesis": "The area office hours changed last week. They now open at 8.30 instead of 9 in the morning.",
+        "reference_normalized": "the iriya office hours changed last week they now open at 830 instead of 9 in the morning",
+        "hypothesis_normalized": "the area office hours changed last week they now open at 8.30 instead of 9 in the morning",
+        "wer": 0.1111111111111111,
+        "duration_seconds": 1.3240745067596436
+      },
+      {
+        "audio_file": "025_hebrew_daily",
+        "model": "finetune-base",
+        "reference": "The vaad habayit meeting is scheduled for next Tuesday evening. We need to discuss the elevator repairs and the new security system.",
+        "hypothesis": "The VAT byte meeting schedule for next Tuesday evening. We need to discuss the elevator repairs and the new security system.",
+        "reference_normalized": "the vaad habayit meeting is scheduled for next tuesday evening we need to discuss the elevator repairs and the new security system",
+        "hypothesis_normalized": "the vat byte meeting schedule for next tuesday evening we need to discuss the elevator repairs and the new security system",
+        "wer": 0.18181818181818182,
+        "duration_seconds": 1.3374335765838623
+      },
+      {
+        "audio_file": "026_hebrew_food",
+        "model": "finetune-base",
+        "reference": "I ordered some shawarma and falafel for lunch. The hummus here is really good and they give you plenty of pita bread on the side.",
+        "hypothesis": "I ordered some shawarma and falafel for lunch. The hummus here is really good and they give you plenty of pita bread on the site.",
+        "reference_normalized": "i ordered some shawarma and falafel for lunch the hummus here is really good and they give you plenty of pita bread on the side",
+        "hypothesis_normalized": "i ordered some shawarma and falafel for lunch the hummus here is really good and they give you plenty of pita bread on the site",
+        "wer": 0.04,
+        "duration_seconds": 1.5062992572784424
+      },
+      {
+        "audio_file": "027_hebrew_food",
+        "model": "finetune-base",
+        "reference": "The shuk is packed on Friday mornings. Everyone is buying fresh challah and vegetables for Shabbat dinner.",
+        "hypothesis": "The shuk is packed on Friday mornings. Everyone is buying fresh chala and vegetables for Shabbat dinner.",
+        "reference_normalized": "the shuk is packed on friday mornings everyone is buying fresh challah and vegetables for shabbat dinner",
+        "hypothesis_normalized": "the shuk is packed on friday mornings everyone is buying fresh chala and vegetables for shabbat dinner",
+        "wer": 0.058823529411764705,
+        "duration_seconds": 1.3415875434875488
+      },
+      {
+        "audio_file": "028_hebrew_food",
+        "model": "finetune-base",
+        "reference": "Would you like some more tahini with your sabich? The amba sauce is a bit spicy but it adds great flavor to the sandwich.",
+        "hypothesis": "Would you like some more tahini with your sabich? The ambasoss is a bit spicy, but it adds great flavor to the sandwich.",
+        "reference_normalized": "would you like some more tahini with your sabich the amba sauce is a bit spicy but it adds great flavor to the sandwich",
+        "hypothesis_normalized": "would you like some more tahini with your sabich the ambasoss is a bit spicy but it adds great flavor to the sandwich",
+        "wer": 0.08333333333333333,
+        "duration_seconds": 1.4127898216247559
+      },
+      {
+        "audio_file": "029_ai_ml",
+        "model": "finetune-base",
+        "reference": "The transformer model uses attention mechanisms to process sequences in parallel. This makes training much faster than older recurrent neural network architectures.",
+        "hypothesis": "The transformer model uses attention mechanisms to process sequences in parallel. This makes training much faster than older recurrent neural network architectures.",
+        "reference_normalized": "the transformer model uses attention mechanisms to process sequences in parallel this makes training much faster than older recurrent neural network architectures",
+        "hypothesis_normalized": "the transformer model uses attention mechanisms to process sequences in parallel this makes training much faster than older recurrent neural network architectures",
+        "wer": 0.0,
+        "duration_seconds": 1.361349105834961
+      },
+      {
+        "audio_file": "030_ai_ml",
+        "model": "finetune-base",
+        "reference": "Fine tuning a large language model requires adjusting the learning rate carefully. Too high and the model forgets its pre-trained knowledge, too low and it learns nothing new.",
+        "hypothesis": "Fine-tuning a large language model requires adjusting the learning rate carefully. Too fine, and the model forgets its pre-trained knowledge. Too low, and it learns nothing new!",
+        "reference_normalized": "fine tuning a large language model requires adjusting the learning rate carefully too high and the model forgets its pre trained knowledge too low and it learns nothing new",
+        "hypothesis_normalized": "fine tuning a large language model requires adjusting the learning rate carefully too fine and the model forgets its pre trained knowledge too low and it learns nothing new",
+        "wer": 0.034482758620689655,
+        "duration_seconds": 1.4784843921661377
+      },
+      {
+        "audio_file": "031_ai_ml",
+        "model": "finetune-base",
+        "reference": "The embeddings capture semantic meaning in a high dimensional vector space. Similar concepts end up close together which enables semantic search.",
+        "hypothesis": "The embeddings capture semantic meaning in a high-dimensional vector space. Similar concepts end up close together, which enables semantic search.",
+        "reference_normalized": "the embeddings capture semantic meaning in a high dimensional vector space similar concepts end up close together which enables semantic search",
+        "hypothesis_normalized": "the embeddings capture semantic meaning in a high dimensional vector space similar concepts end up close together which enables semantic search",
+        "wer": 0.0,
+        "duration_seconds": 1.3633325099945068
+      },
+      {
+        "audio_file": "032_ai_ml",
+        "model": "finetune-base",
+        "reference": "I am training a LoRA adapter instead of doing full fine tuning. It uses much less memory and the resulting weights are only a few megabytes.",
+        "hypothesis": "I am training a Laura adapter instead of doing full fine tuning. It uses much less memory and the resulting weights are only a few megabytes.",
+        "reference_normalized": "i am training a lora adapter instead of doing full fine tuning it uses much less memory and the resulting weights are only a few megabytes",
+        "hypothesis_normalized": "i am training a laura adapter instead of doing full fine tuning it uses much less memory and the resulting weights are only a few megabytes",
+        "wer": 0.038461538461538464,
+        "duration_seconds": 1.4018547534942627
+      },
+      {
+        "audio_file": "033_ai_ml",
+        "model": "finetune-base",
+        "reference": "Prompt engineering is about crafting inputs that guide the model toward desired outputs. Small changes in wording can dramatically affect the quality of responses.",
+        "hypothesis": "Promet engineering is about crafting inputs that guide the model towards desired outputs. Small changes in wording can dramatically affect the quality of responses.",
+        "reference_normalized": "prompt engineering is about crafting inputs that guide the model toward desired outputs small changes in wording can dramatically affect the quality of responses",
+        "hypothesis_normalized": "promet engineering is about crafting inputs that guide the model towards desired outputs small changes in wording can dramatically affect the quality of responses",
+        "wer": 0.08333333333333333,
+        "duration_seconds": 1.3624742031097412
+      },
+      {
+        "audio_file": "034_ai_ml",
+        "model": "finetune-base",
+        "reference": "The inference speed depends on batch size and model quantization. Using four bit quantization cuts memory usage in half with minimal impact on output quality.",
+        "hypothesis": "The inference speed depends on batch size and model quantization. Using a 4-bit quantization cuts memory usage in half with minimal impact on output quality.",
+        "reference_normalized": "the inference speed depends on batch size and model quantization using 4 bit quantization cuts memory usage in half with minimal impact on output quality",
+        "hypothesis_normalized": "the inference speed depends on batch size and model quantization using a 4 bit quantization cuts memory usage in half with minimal impact on output quality",
+        "wer": 0.04,
+        "duration_seconds": 1.4047365188598633
+      },
+      {
+        "audio_file": "035_ai_ml",
+        "model": "finetune-base",
+        "reference": "Retrieval augmented generation combines language models with external knowledge bases. The retriever finds relevant documents and the generator synthesizes them into coherent answers.",
+        "hypothesis": "Retrieval augmented generation combines language models with external knowledge bases. The retriever finds relevant documents, and the generator synthesizes them into coherent answers.",
+        "reference_normalized": "retrieval augmented generation combines language models with external knowledge bases the retriever finds relevant documents and the generator synthesizes them into coherent answers",
+        "hypothesis_normalized": "retrieval augmented generation combines language models with external knowledge bases the retriever finds relevant documents and the generator synthesizes them into coherent answers",
+        "wer": 0.0,
+        "duration_seconds": 1.3951480388641357
+      }
+    ]
+  }
+}
