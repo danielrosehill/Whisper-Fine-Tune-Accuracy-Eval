@@ -1,6 +1,17 @@
 # Does Fine-Tuning Whisper Reduce Word Error Rate / Improve Accuracy?
 
-A "back of the envelope" evaluation comparing fine-tuned Whisper models against original OpenAI models using Word Error Rate (WER).
+Fine tuning ASR models is commonly undetaken for several purposes:
+
+- Improve overall accuracy (or conversely, reduce WER) 
+- Improve accuracy when transcribing specialist vocabulary by training on a subset of domain specialist dense vocab texts 
+- Improving accuracy for languages with small speaker populations and which are underrepresented in ASR training data (with impaired accuracy as as result) 
+
+This evaluation used local inference to compare fine-tunes I trained on about 90 minutes of my speech. The targeted improvements were in tech vocab recognition and enhanced performance in "code switching" (English with Hebrew words).
+
+The results were surprising but potentially highly relevant:
+
+- The smaller Whisper models showed a definite improvement in accuracy with fine-tuning with a very modest "penalty" in the form of increased inference time 
+- The larger models (medium and large) surprisingly showed decreased accuracy / increased WER 
 
 ## About This Evaluation
 
@@ -30,6 +41,18 @@ That said, the findings are instructive—particularly for understanding where f
 | **small** | 3.45% | 3.96% | **Fine-tune better (+13%)** |
 | **medium** | 2.96% | 2.71% | Fine-tune worse (-9%) |
 | **large-v3-turbo** | 3.01% | 2.77% | Fine-tune worse (-9%) |
+
+### Inference Time Comparison
+
+| Model Size | Fine-tuned | Original | Difference |
+|------------|------------|----------|------------|
+| **tiny** | 0.247s | 0.275s | -0.028s (10% faster) |
+| **base** | 0.408s | 0.413s | -0.005s (similar) |
+| **small** | 0.823s | 0.518s | +0.305s (59% slower) |
+| **medium** | 1.462s | 1.084s | +0.378s (35% slower) |
+| **large-v3-turbo** | 0.991s | 1.004s | -0.013s (similar) |
+
+*Note: Inference time variations for fine-tuned models may be due to quantization differences in GGML conversion.*
 
 ### Key Findings
 
