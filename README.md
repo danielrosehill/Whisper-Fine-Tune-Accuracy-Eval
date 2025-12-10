@@ -1,6 +1,20 @@
-# Does Fine-Tuning Whisper Reduce Word Error Rate / Improve Accuracsy?
+# Does Fine-Tuning Whisper Reduce Word Error Rate / Improve Accuracy?
 
-## "Back of the envelope eval on local inference
+A "back of the envelope" evaluation comparing fine-tuned Whisper models against original OpenAI models using Word Error Rate (WER).
+
+## About This Evaluation
+
+**Important context:** The fine-tuned models tested here were **proof-of-concept efforts** trained on approximately **90 minutes of audio data**. 
+
+These results may not be representative of what a more substantial fine-tuning effort (with significantly more training data and hyperparameter optimization) could achieve.
+
+That said, the findings are instructive—particularly for understanding where fine-tuning may offer the most value, such as improving WER on **edge devices and mobile applications** where smaller, faster models are preferred.
+
+### Method
+
+- Evaluation dataset with ~100 sentences designed to test ability of models to transcribe specialist text and code-switching samples accurately
+- Text normalization with Whisper Normalizer for fair comparison
+- GPU-accelerated evaluation using Vulkan
 
 ## Results
 
