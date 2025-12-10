@@ -3,3 +3,4 @@ numpy
 sounddevice
 PyQt6
 whisper-normalizer
+matplotlib
