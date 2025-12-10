@@ -53,7 +53,7 @@ That said, the findings are instructive—particularly for understanding where f
 | **medium** | 1.462s | 1.084s | +0.378s (35% slower) |
 | **large-v3-turbo** | 0.991s | 1.004s | -0.013s (similar) |
 
-*Note: Inference time variations for fine-tuned models may be due to quantization differences in GGML conversion.*
+*Note: Inference time variations between fine-tuned and original models are minimal in GPU-accelerated inference. The small/medium variations observed may be due to weight distribution differences affecting Vulkan kernel execution patterns.*
 
 ### Key Findings
 
@@ -97,6 +97,22 @@ This ensures fair comparison regardless of how numbers/abbreviations appear in t
 ### Transcription Engine
 
 Uses `whisper-cli-vulkan` ([whisper.cpp](https://github.com/ggerganov/whisper.cpp)) with Vulkan GPU acceleration (~20x faster than CPU).
+
+### Experimental Setup
+
+| Component | Details |
+|-----------|---------|
+| **GPU** | AMD Radeon RX 7700 XT (RADV NAVI32) |
+| **Vulkan API** | 1.4.318 |
+| **Vulkan Driver** | RADV 25.2.3 |
+| **Inference Engine** | whisper.cpp (Vulkan backend) |
+| **Model Format** | GGML (FP16, unquantized) |
+
+**Model Format Notes:**
+- Both fine-tuned and original models use identical GGML format (same file sizes per model size)
+- No additional quantization applied—models are FP16 precision
+- Identical binary headers confirmed between fine-tuned and original model pairs
+- This ensures WER differences reflect actual model performance, not quantization artifacts
 
 ## Running the Evaluation
 
