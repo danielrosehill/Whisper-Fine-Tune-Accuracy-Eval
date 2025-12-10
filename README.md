@@ -12,6 +12,7 @@ The results were surprising but potentially highly relevant:
 
 - The smaller Whisper models showed a definite improvement in accuracy with fine-tuning with a very modest "penalty" in the form of increased inference time 
 - The larger models (medium and large) surprisingly showed decreased accuracy / increased WER 
+- This valuation was conducted on GPU accelerated inference.  In this environment, the differences in inference time between fine tunes and originals were not significant. 
 
 ## About This Evaluation
 
