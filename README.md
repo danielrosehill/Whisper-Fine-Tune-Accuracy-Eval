@@ -1,118 +1,126 @@
-# Does Fine-Tuning Whisper Reduce Word Error Rate / Improve Accuracy?
+# Does Fine-Tuning Whisper Improve Accuracy?
 
-Fine tuning ASR models is commonly undetaken for several purposes:
+**TL;DR:** Fine-tuning helps smaller models (tiny, base, small) but hurts larger ones. The exception: **Hebrew code-switching improved across ALL model sizes** (26-62% better).
 
-- Improve overall accuracy (or conversely, reduce WER) 
-- Improve accuracy when transcribing specialist vocabulary by training on a subset of domain specialist dense vocab texts 
-- Improving accuracy for languages with small speaker populations and which are underrepresented in ASR training data (with impaired accuracy as as result) 
+## Key Actionable Findings
 
-This evaluation used local inference to compare fine-tunes I trained on about 90 minutes of my speech. The targeted improvements were in tech vocab recognition and enhanced performance in "code switching" (English with Hebrew words).
+### 1. Choose Your Model Based on Use Case
 
-The results were surprising but potentially highly relevant:
+| If you need... | Use this | Why |
+|----------------|----------|-----|
+| **Best accuracy** | Original medium | 2.71% WER, no fine-tuning needed |
+| **Edge/mobile deployment** | Fine-tuned small | 3.45% WER, good speed/accuracy trade-off |
+| **Fastest inference** | Fine-tuned tiny | 0.25s, 16% better than original |
+| **Code-switching (multilingual)** | Fine-tune any size | 26-62% improvement across all sizes |
 
-- The smaller Whisper models showed a definite improvement in accuracy with fine-tuning with a very modest "penalty" in the form of increased inference time 
-- The larger models (medium and large) surprisingly showed decreased accuracy / increased WER 
-- This valuation was conducted on GPU accelerated inference.  In this environment, the differences in inference time between fine tunes and originals were not significant. 
+### 2. Fine-Tuning Decision Matrix
 
-## About This Evaluation
+| Model Size | Fine-tune? | Result |
+|------------|------------|--------|
+| tiny | **Yes** | 16% better WER |
+| base | **Yes** | 8% better WER |
+| small | **Yes** | 13% better WER |
+| medium | No | 9% worse WER |
+| large | No | 9% worse WER |
 
-**Important context:** The fine-tuned models tested here were **proof-of-concept efforts** trained on approximately **90 minutes of audio data**. 
+### 3. The Hebrew Code-Switching Win
 
-These results may not be representative of what a more substantial fine-tuning effort (with significantly more training data and hyperparameter optimization) could achieve.
+Fine-tuning dramatically improved multilingual content across **all model sizes**:
 
-That said, the findings are instructive—particularly for understanding where fine-tuning may offer the most value, such as improving WER on **edge devices and mobile applications** where smaller, faster models are preferred.
+| Model | Fine-tuned | Original | Improvement |
+|-------|------------|----------|-------------|
+| tiny | 9.99% | 13.50% | **+26%** |
+| base | 7.40% | 10.01% | **+26%** |
+| small | 2.71% | 6.69% | **+60%** |
+| medium | 4.47% | 6.24% | **+28%** |
+| large | 1.92% | 5.00% | **+62%** |
 
-### Method
+**Takeaway:** If you're transcribing code-switched content or underrepresented languages, fine-tuning is worth it regardless of model size.
 
-- Evaluation dataset with ~100 sentences designed to test ability of models to transcribe specialist text and code-switching samples accurately
-- Text normalization with Whisper Normalizer for fair comparison
-- GPU-accelerated evaluation using Vulkan
+---
 
-## Results
-
-**Test:** 91 audio samples with technical vocabulary (GitHub, Hugging Face, Docker, cloud technologies)
-**Full analysis:** [RESULTS.md](RESULTS.md)
+## Results Overview
 
 ### Word Error Rate Comparison
 
-| Model Size | Fine-tuned | Original | Result |
+| Model Size | Fine-tuned | Original | Winner |
 |------------|------------|----------|--------|
-| **tiny** | 6.59% | 7.85% | **Fine-tune better (+16%)** |
-| **base** | 5.02% | 5.46% | **Fine-tune better (+8%)** |
-| **small** | 3.45% | 3.96% | **Fine-tune better (+13%)** |
-| **medium** | 2.96% | 2.71% | Fine-tune worse (-9%) |
-| **large-v3-turbo** | 3.01% | 2.77% | Fine-tune worse (-9%) |
+| tiny | 6.59% | 7.85% | Fine-tuned |
+| base | 5.02% | 5.46% | Fine-tuned |
+| small | 3.45% | 3.96% | Fine-tuned |
+| medium | 2.96% | 2.71% | Original |
+| large | 3.01% | 2.77% | Original |
 
-### Inference Time Comparison
+### Inference Time (GPU)
 
-| Model Size | Fine-tuned | Original | Difference |
-|------------|------------|----------|------------|
-| **tiny** | 0.247s | 0.275s | -0.028s (10% faster) |
-| **base** | 0.408s | 0.413s | -0.005s (similar) |
-| **small** | 0.823s | 0.518s | +0.305s (59% slower) |
-| **medium** | 1.462s | 1.084s | +0.378s (35% slower) |
-| **large-v3-turbo** | 0.991s | 1.004s | -0.013s (similar) |
+| Model Size | Fine-tuned | Original |
+|------------|------------|----------|
+| tiny | 0.247s | 0.275s |
+| base | 0.408s | 0.413s |
+| small | 0.823s | 0.518s |
+| medium | 1.462s | 1.084s |
+| large | 0.991s | 1.004s |
 
-*Note: Inference time variations between fine-tuned and original models are minimal in GPU-accelerated inference. The small/medium variations observed may be due to weight distribution differences affecting Vulkan kernel execution patterns.*
+*Note: GPU inference minimizes speed differences. CPU inference may show larger variations.*
 
-### Key Findings
+---
 
-- **Fine-tuning improves smaller models significantly** - tiny, base, and small all show meaningful WER reductions (8-16%)
-- **Larger models don't benefit from this fine-tune** - medium and large-v3-turbo performed slightly worse with fine-tuning
-- **Promising for edge/mobile deployment** - The smaller models (tiny, base, small) that benefit most from fine-tuning are also the models most suitable for resource-constrained environments
-- **Best value:** Fine-tuned small model (3.45% WER, ~0.8s inference)
-- **Best accuracy:** Original medium model (2.71% WER)
+## Visualizations
 
+### Overall Impact
 ![Fine-Tuning Impact](visualizations/finetune_improvement.png)
 
+### WER Comparison
 ![WER Comparison](visualizations/wer_comparison.png)
-![Inference Time Comparison](visualizations/inference_time_comparison.png)
 
-## Models Compared
+### Inference Time
+![Inference Time](visualizations/inference_time_comparison.png)
 
-**Fine-tuned (GGML format):** tiny, base, small, medium, large-v3-turbo
-**Original OpenAI (GGML format):** tiny, base, small, medium, large-v3-turbo
+### Subset Analysis
+![Technical Vocabulary](analysis/visualizations/tech_vocab_comparison.png)
+![Hebrew Code-Switching](analysis/visualizations/hebrew_codeswitching_comparison.png)
+![Improvement Heatmap](analysis/visualizations/improvement_heatmap.png)
 
-Fine-tuned models: [danielrosehill/whisper-finetunes](https://huggingface.co/danielrosehill)
+---
 
-## Datasets
+## Technical Vocabulary Breakdown
 
-- **Audio dataset:** [Small-STT-Eval-Audio-Dataset](https://huggingface.co/datasets/danielrosehill/Small-STT-Eval-Audio-Dataset)
-- **Evaluation results:** [STT-Fine-Tune-Eval-101225](https://huggingface.co/datasets/danielrosehill/STT-Fine-Tune-Eval-101225) (also in repo)
+Fine-tuning helped smaller models but hurt larger ones on tech terms:
+
+| Model | Fine-tuned | Original | Result |
+|-------|------------|----------|--------|
+| tiny | 6.71% | 7.49% | +10% better |
+| base | 5.29% | 6.65% | +20% better |
+| small | 3.37% | 3.49% | +4% better |
+| medium | 2.95% | 2.02% | -46% worse |
+| large | 3.28% | 2.57% | -27% worse |
+
+**Interpretation:** Larger models already have strong tech vocabulary coverage. Fine-tuning on limited data may introduce noise.
+
+---
 
 ## Methodology
 
-### WER Calculation
+- **Test set:** 91 audio samples with technical vocabulary (GitHub, Docker, cloud tech) and Hebrew code-switching
+- **Normalization:** Whisper Normalizer for fair comparison
+- **WER calculation:** [werpy](https://github.com/analyticsinmotion/werpy)
+- **Inference:** whisper.cpp with Vulkan GPU acceleration
+- **Hardware:** AMD Radeon RX 7700 XT
 
-Uses [werpy](https://github.com/analyticsinmotion/werpy) for Word Error Rate calculation with [whisper-normalizer](https://github.com/kurianbenoy/whisper_normalizer) for text normalization:
+### Important Context
 
-| Input | Normalized Output |
-|-------|-------------------|
-| "3000" | "three thousand" |
-| "Mr. Smith" | "mister smith" |
-| "It's 5:30 PM" | "its five thirty pm" |
+The fine-tuned models were **proof-of-concept** trained on ~90 minutes of audio. Results may improve with:
+- More training data
+- Hyperparameter optimization
+- Multi-speaker datasets
 
-This ensures fair comparison regardless of how numbers/abbreviations appear in the transcription.
+---
 
-### Transcription Engine
+## Resources
 
-Uses `whisper-cli-vulkan` ([whisper.cpp](https://github.com/ggerganov/whisper.cpp)) with Vulkan GPU acceleration (~20x faster than CPU).
-
-### Experimental Setup
-
-| Component | Details |
-|-----------|---------|
-| **GPU** | AMD Radeon RX 7700 XT (RADV NAVI32) |
-| **Vulkan API** | 1.4.318 |
-| **Vulkan Driver** | RADV 25.2.3 |
-| **Inference Engine** | whisper.cpp (Vulkan backend) |
-| **Model Format** | GGML (FP16, unquantized) |
-
-**Model Format Notes:**
-- Both fine-tuned and original models use identical GGML format (same file sizes per model size)
-- No additional quantization applied—models are FP16 precision
-- Identical binary headers confirmed between fine-tuned and original model pairs
-- This ensures WER differences reflect actual model performance, not quantization artifacts
+**Models:** [danielrosehill/whisper-finetunes](https://huggingface.co/danielrosehill)
+**Audio dataset:** [Small-STT-Eval-Audio-Dataset](https://huggingface.co/datasets/danielrosehill/Small-STT-Eval-Audio-Dataset)
+**Results dataset:** [STT-Fine-Tune-Eval-101225](https://huggingface.co/datasets/danielrosehill/STT-Fine-Tune-Eval-101225)
 
 ## Running the Evaluation
 
@@ -120,25 +128,4 @@ Uses `whisper-cli-vulkan` ([whisper.cpp](https://github.com/ggerganov/whisper.cp
 ./scripts/run_gui.sh
 ```
 
-See [scripts/README.md](scripts/README.md) for details on the evaluation tools.
-
-## Output Structure
-
-```
-results/
-├── individual/                          # Per-transcription results
-│   ├── finetune-tiny/
-│   ├── finetune-base/
-│   └── original-tiny/
-├── detailed_results_YYYYMMDD_HHMMSS.json
-└── summary_YYYYMMDD_HHMMSS.csv
-```
-
-## Dependencies
-
-```
-werpy
-whisper-normalizer
-PyQt6
-numpy
-```
+See [scripts/README.md](scripts/README.md) for tool details.
