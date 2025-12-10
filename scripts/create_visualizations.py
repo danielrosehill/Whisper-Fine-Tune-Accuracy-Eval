@@ -72,6 +72,35 @@ def create_wer_comparison():
                     ha='center', va='bottom', fontsize=10,
                     fontweight='bold', color=color)
 
+    # Add highlight box over medium and large models (indices 3 and 4)
+    from matplotlib.patches import FancyBboxPatch
+
+    # Calculate box position (spanning medium and large)
+    box_left = 3 - width - 0.15
+    box_right = 4 + width + 0.15
+    box_width = box_right - box_left
+    box_height = max(finetune_wer[3:5] + original_wer[3:5]) + 1.8
+
+    # Add semi-transparent highlight box
+    highlight_box = FancyBboxPatch(
+        (box_left, -0.1), box_width, box_height,
+        boxstyle="round,pad=0.05,rounding_size=0.2",
+        facecolor='#FFCCCC', edgecolor='#CC0000',
+        alpha=0.25, linewidth=2, linestyle='--',
+        zorder=0
+    )
+    ax.add_patch(highlight_box)
+
+    # Add annotation text above the highlight box
+    ax.annotate(
+        'Fine-tuned models\nperformed worse',
+        xy=((3 + 4) / 2, box_height + 0.3),
+        ha='center', va='bottom', fontsize=10,
+        fontweight='bold', color='#990000',
+        bbox=dict(boxstyle='round,pad=0.3', facecolor='#FFEEEE',
+                  edgecolor='#CC0000', linewidth=1.5)
+    )
+
     plt.tight_layout()
     plt.savefig(output_dir / 'wer_comparison.png', dpi=150, bbox_inches='tight')
     plt.close()
