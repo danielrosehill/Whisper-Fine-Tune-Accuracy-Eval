@@ -6,5 +6,5 @@
   "reference_normalized": "the iriya office hours changed last week they now open at 830 instead of 9 in the morning",
   "hypothesis_normalized": "the area office hours changed last week they now open at 8.30 instead of 9 in the morning",
   "wer": 0.1111111111111111,
-  "duration_seconds": 1.3240745067596436
+  "duration_seconds": 0.364652156829834
 }

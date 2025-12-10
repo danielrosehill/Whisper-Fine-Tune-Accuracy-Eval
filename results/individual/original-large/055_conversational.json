@@ -1,0 +1,10 @@
+{
+  "audio_file": "055_conversational",
+  "model": "original-large",
+  "reference": "Can you send me the link to that documentation? I have been looking for it all morning but cannot seem to find the right page.",
+  "hypothesis": "Can you send me the link to that documentation? I have been looking for it all morning but cannot seem to find the right page.",
+  "reference_normalized": "can you send me the link to that documentation i have been looking for it all morning but cannot seem to find the right page",
+  "hypothesis_normalized": "can you send me the link to that documentation i have been looking for it all morning but cannot seem to find the right page",
+  "wer": 0.0,
+  "duration_seconds": 0.9829258918762207
+}

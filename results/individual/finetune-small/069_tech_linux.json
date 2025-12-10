@@ -1,0 +1,10 @@
+{
+  "audio_file": "069_tech_linux",
+  "model": "finetune-small",
+  "reference": "Check the system logs using journalctl to see what happened during the last boot. Filter by unit name to focus on the specific service that failed.",
+  "hypothesis": "Check the system logs using journalctl to see what happened during the last boot. Filter by unit name to focus on the specific service that failed.",
+  "reference_normalized": "check the system logs using journalctl to see what happened during the last boot filter by unit name to focus on the specific service that failed",
+  "hypothesis_normalized": "check the system logs using journalctl to see what happened during the last boot filter by unit name to focus on the specific service that failed",
+  "wer": 0.0,
+  "duration_seconds": 0.5481948852539062
+}

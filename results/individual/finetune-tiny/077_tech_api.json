@@ -1,0 +1,10 @@
+{
+  "audio_file": "077_tech_api",
+  "model": "finetune-tiny",
+  "reference": "The OpenRouter API provides access to multiple language models through a single endpoint. You can switch between models by changing the model parameter.",
+  "hypothesis": "The open router API provides access to multiple language models through a single endpoint. You can switch between models by changing the model parameter.",
+  "reference_normalized": "the openrouter api provides access to multiple language models through a single endpoint you can switch between models by changing the model parameter",
+  "hypothesis_normalized": "the open router api provides access to multiple language models through a single endpoint you can switch between models by changing the model parameter",
+  "wer": 0.08695652173913043,
+  "duration_seconds": 0.2446763515472412
+}

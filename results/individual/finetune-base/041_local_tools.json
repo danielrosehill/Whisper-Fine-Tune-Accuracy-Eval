@@ -1,0 +1,10 @@
+{
+  "audio_file": "041_local_tools",
+  "model": "finetune-base",
+  "reference": "The Whisper transcription service is running in a Docker container. It exposes a REST API endpoint that accepts audio files and returns JSON responses.",
+  "hypothesis": "The whisper transcription service is running in a Docker container. It exposes a rest API endpoint that accepts audio files and returns JSON responses.",
+  "reference_normalized": "the whisper transcription service is running in a docker container it exposes a rest api endpoint that accepts audio files and returns json responses",
+  "hypothesis_normalized": "the whisper transcription service is running in a docker container it exposes a rest api endpoint that accepts audio files and returns json responses",
+  "wer": 0.0,
+  "duration_seconds": 0.39695262908935547
+}

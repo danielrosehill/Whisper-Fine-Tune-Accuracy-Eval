@@ -1,0 +1,10 @@
+{
+  "audio_file": "010_tech_huggingface",
+  "model": "finetune-small",
+  "reference": "Create a new Hugging Face space with the Gradio template. It provides a simple interface for demoing machine learning models without writing much frontend code.",
+  "hypothesis": "Create a new Hugging Face space with the Gradio template. It provides a simple interface for demoing machine learning models without writing much front-end code.",
+  "reference_normalized": "create a new hugging face space with the gradio template it provides a simple interface for demoing machine learning models without writing much frontend code",
+  "hypothesis_normalized": "create a new hugging face space with the gradio template it provides a simple interface for demoing machine learning models without writing much front end code",
+  "wer": 0.08,
+  "duration_seconds": 0.7456767559051514
+}

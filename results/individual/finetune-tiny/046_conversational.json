@@ -1,0 +1,10 @@
+{
+  "audio_file": "046_conversational",
+  "model": "finetune-tiny",
+  "reference": "So I was thinking we could try a different approach this time. The last method worked okay but it took way too long to get any results.",
+  "hypothesis": "So, I was thinking we could try a different approach this time. The last method worked okay, but it took way too long to get any results.",
+  "reference_normalized": "so i was thinking we could try a different approach this time the last method worked okay but it took way too long to get any results",
+  "hypothesis_normalized": "so i was thinking we could try a different approach this time the last method worked okay but it took way too long to get any results",
+  "wer": 0.0,
+  "duration_seconds": 0.25312376022338867
+}

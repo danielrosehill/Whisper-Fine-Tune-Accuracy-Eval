@@ -1,0 +1,10 @@
+{
+  "audio_file": "047_conversational",
+  "model": "finetune-large",
+  "reference": "Yeah that makes sense. I had a similar issue last week and ended up just rewriting the whole thing from scratch. Sometimes that is faster than debugging.",
+  "hypothesis": "Yeah, that makes sense! I had a similar issue last week and ended up just rewriting the whole thing from scratch. Sometimes, that is faster than debugging!",
+  "reference_normalized": "yeah that makes sense i had a similar issue last week and ended up just rewriting the whole thing from scratch sometimes that is faster than debugging",
+  "hypothesis_normalized": "yeah that makes sense i had a similar issue last week and ended up just rewriting the whole thing from scratch sometimes that is faster than debugging",
+  "wer": 0.0,
+  "duration_seconds": 1.0158360004425049
+}

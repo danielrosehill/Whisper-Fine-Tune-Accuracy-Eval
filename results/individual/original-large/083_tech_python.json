@@ -1,0 +1,10 @@
+{
+  "audio_file": "083_tech_python",
+  "model": "original-large",
+  "reference": "FastAPI generates automatic documentation for your REST endpoints. You can see the swagger interface by navigating to the docs path in your browser.",
+  "hypothesis": "FastAPI generates automatic documentation for your REST endpoints. You can see the Swagger interface by navigating to the docs path in your browser.",
+  "reference_normalized": "fastapi generates automatic documentation for your rest endpoints you can see the swagger interface by navigating to the docs path in your browser",
+  "hypothesis_normalized": "fastapi generates automatic documentation for your rest endpoints you can see the swagger interface by navigating to the docs path in your browser",
+  "wer": 0.0,
+  "duration_seconds": 1.0916221141815186
+}

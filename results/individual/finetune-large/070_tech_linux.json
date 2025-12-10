@@ -1,0 +1,10 @@
+{
+  "audio_file": "070_tech_linux",
+  "model": "finetune-large",
+  "reference": "The systemd service needs to be restarted after changing the configuration file. Use systemctl daemon reload first to pick up the changes.",
+  "hypothesis": "The systemd service needs to be restarted after changing the configuration file. Use systemctl daemon reload first to pick up the changes.",
+  "reference_normalized": "the systemd service needs to be restarted after changing the configuration file use systemctl daemon reload 1st to pick up the changes",
+  "hypothesis_normalized": "the systemd service needs to be restarted after changing the configuration file use systemctl daemon reload 1st to pick up the changes",
+  "wer": 0.0,
+  "duration_seconds": 1.0028634071350098
+}

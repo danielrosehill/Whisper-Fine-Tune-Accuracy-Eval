@@ -1,0 +1,10 @@
+{
+  "audio_file": "057_narrative",
+  "model": "original-base",
+  "reference": "Rain began to fall as the afternoon clouds gathered over the hills. People hurried along the sidewalks looking for shelter under shop awnings and building entrances.",
+  "hypothesis": "Rain began to fall as the afternoon clouds gathered over the hills. People hurried along the sidewalks looking for shelter under shop onnings and building entrances.",
+  "reference_normalized": "rain began to fall as the afternoon clouds gathered over the hills people hurried along the sidewalks looking for shelter under shop awnings and building entrances",
+  "hypothesis_normalized": "rain began to fall as the afternoon clouds gathered over the hills people hurried along the sidewalks looking for shelter under shop onnings and building entrances",
+  "wer": 0.038461538461538464,
+  "duration_seconds": 0.4367539882659912
+}

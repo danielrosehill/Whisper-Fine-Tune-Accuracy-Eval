@@ -1,0 +1,10 @@
+{
+  "audio_file": "052_conversational",
+  "model": "finetune-tiny",
+  "reference": "Okay so here is what I am thinking. We start with the basic functionality and then add more features as we go. Does that sound reasonable to you?",
+  "hypothesis": "Okay, so here's what I'm thinking. We start with the basic functionality and then add some more features as we go. Does that sound reasonable to you?",
+  "reference_normalized": "okay so here is what i am thinking we start with the basic functionality and then add more features as we go does that sound reasonable to you",
+  "hypothesis_normalized": "okay so here is what i am thinking we start with the basic functionality and then add some more features as we go does that sound reasonable to you",
+  "wer": 0.03571428571428571,
+  "duration_seconds": 0.26225876808166504
+}

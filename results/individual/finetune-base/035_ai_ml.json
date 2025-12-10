@@ -6,5 +6,5 @@
   "reference_normalized": "retrieval augmented generation combines language models with external knowledge bases the retriever finds relevant documents and the generator synthesizes them into coherent answers",
   "hypothesis_normalized": "retrieval augmented generation combines language models with external knowledge bases the retriever finds relevant documents and the generator synthesizes them into coherent answers",
   "wer": 0.0,
-  "duration_seconds": 1.3951480388641357
+  "duration_seconds": 0.42069387435913086
 }

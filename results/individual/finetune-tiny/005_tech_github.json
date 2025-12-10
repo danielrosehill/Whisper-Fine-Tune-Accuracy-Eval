@@ -1,0 +1,10 @@
+{
+  "audio_file": "005_tech_github",
+  "model": "finetune-tiny",
+  "reference": "Clone the repository from GitHub using the SSH URL. Make sure your SSH keys are properly configured before attempting to push any changes.",
+  "hypothesis": "Cloned the repository from GitHub using SSH URL, make sure your SSH keys are properly configured before attempting to push any changes.",
+  "reference_normalized": "clone the repository from github using the ssh url make sure your ssh keys are properly configured before attempting to push any changes",
+  "hypothesis_normalized": "cloned the repository from github using ssh url make sure your ssh keys are properly configured before attempting to push any changes",
+  "wer": 0.08695652173913043,
+  "duration_seconds": 0.24190354347229004
+}

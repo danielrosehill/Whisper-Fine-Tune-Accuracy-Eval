@@ -1,0 +1,10 @@
+{
+  "audio_file": "060_narrative",
+  "model": "original-base",
+  "reference": "The market was filled with colorful displays of fruits and vegetables. Vendors called out their prices trying to attract customers to their stalls.",
+  "hypothesis": "The market was filled with colorful displays of fruits and vegetables. Vendors called out their prices trying to attract customers to their stalls.",
+  "reference_normalized": "the market was filled with colorful displays of fruits and vegetables vendors called out their prices trying to attract customers to their stalls",
+  "hypothesis_normalized": "the market was filled with colorful displays of fruits and vegetables vendors called out their prices trying to attract customers to their stalls",
+  "wer": 0.0,
+  "duration_seconds": 0.39986133575439453
+}

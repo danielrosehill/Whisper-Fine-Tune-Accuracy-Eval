@@ -1,0 +1,10 @@
+{
+  "audio_file": "035_ai_ml",
+  "model": "finetune-large",
+  "reference": "Retrieval augmented generation combines language models with external knowledge bases. The retriever finds relevant documents and the generator synthesizes them into coherent answers.",
+  "hypothesis": "Retrieval augmented generation combines language models with external knowledge bases. The retriever finds relevant documents, and the generator synthesizes them into coherent answers.",
+  "reference_normalized": "retrieval augmented generation combines language models with external knowledge bases the retriever finds relevant documents and the generator synthesizes them into coherent answers",
+  "hypothesis_normalized": "retrieval augmented generation combines language models with external knowledge bases the retriever finds relevant documents and the generator synthesizes them into coherent answers",
+  "wer": 0.0,
+  "duration_seconds": 1.027467966079712
+}

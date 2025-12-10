@@ -1,0 +1,10 @@
+{
+  "audio_file": "076_tech_api",
+  "model": "finetune-base",
+  "reference": "Send a POST request to the transcription endpoint with the audio file. The response will include the transcribed text and confidence scores.",
+  "hypothesis": "Send a post request to the transcription endpoint with the audio file. The response will include the transcribe text and confidence scores.",
+  "reference_normalized": "send a post request to the transcription endpoint with the audio file the response will include the transcribed text and confidence scores",
+  "hypothesis_normalized": "send a post request to the transcription endpoint with the audio file the response will include the transcribe text and confidence scores",
+  "wer": 0.045454545454545456,
+  "duration_seconds": 0.3842484951019287
+}

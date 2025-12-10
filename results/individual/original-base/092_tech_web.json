@@ -1,0 +1,10 @@
+{
+  "audio_file": "092_tech_web",
+  "model": "original-base",
+  "reference": "Tailwind provides utility classes for styling without writing custom CSS. The build process removes unused styles to keep the bundle size small.",
+  "hypothesis": "Tailwind provides utility classes for styling without writing custom CSS. The build process removes unused styles to keep the bundle size small.",
+  "reference_normalized": "tailwind provides utility classes for styling without writing custom css the build process removes unused styles to keep the bundle size small",
+  "hypothesis_normalized": "tailwind provides utility classes for styling without writing custom css the build process removes unused styles to keep the bundle size small",
+  "wer": 0.0,
+  "duration_seconds": 0.38069987297058105
+}

@@ -6,5 +6,5 @@
   "reference_normalized": "i ordered some shawarma and falafel for lunch the hummus here is really good and they give you plenty of pita bread on the side",
   "hypothesis_normalized": "i ordered some shawarma and falafel for lunch the hummus here is really good and they give you plenty of pita bread on the site",
   "wer": 0.04,
-  "duration_seconds": 1.5062992572784424
+  "duration_seconds": 0.440554141998291
 }

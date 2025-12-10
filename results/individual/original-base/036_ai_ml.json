@@ -1,0 +1,10 @@
+{
+  "audio_file": "036_ai_ml",
+  "model": "original-base",
+  "reference": "The tokenizer splits text into subword units before feeding it to the model. Different tokenizers handle special characters and numbers in different ways.",
+  "hypothesis": "The tokenizer splits text into sub word units before feeding it to the model. Different tokenizers handle special characters and numbers in different ways.",
+  "reference_normalized": "the tokenizer splits text into subword units before feeding it to the model different tokenizers handle special characters and numbers in different ways",
+  "hypothesis_normalized": "the tokenizer splits text into sub word units before feeding it to the model different tokenizers handle special characters and numbers in different ways",
+  "wer": 0.08695652173913043,
+  "duration_seconds": 0.4130065441131592
+}

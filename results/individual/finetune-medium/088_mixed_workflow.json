@@ -1,0 +1,10 @@
+{
+  "audio_file": "088_mixed_workflow",
+  "model": "finetune-medium",
+  "reference": "After updating the model weights I need to rebuild the Docker container. The new version includes better handling of Hebrew words mixed with English.",
+  "hypothesis": "After uploading the model weights, I need to rebuild the Docker container. The new version includes better handling of Hebrew words mixed with English.",
+  "reference_normalized": "after updating the model weights i need to rebuild the docker container the new version includes better handling of hebrew words mixed with english",
+  "hypothesis_normalized": "after uploading the model weights i need to rebuild the docker container the new version includes better handling of hebrew words mixed with english",
+  "wer": 0.041666666666666664,
+  "duration_seconds": 1.3020343780517578
+}

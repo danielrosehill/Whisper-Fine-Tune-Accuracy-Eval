@@ -6,5 +6,5 @@
   "reference_normalized": "prompt engineering is about crafting inputs that guide the model toward desired outputs small changes in wording can dramatically affect the quality of responses",
   "hypothesis_normalized": "promet engineering is about crafting inputs that guide the model towards desired outputs small changes in wording can dramatically affect the quality of responses",
   "wer": 0.08333333333333333,
-  "duration_seconds": 1.3624742031097412
+  "duration_seconds": 0.4006664752960205
 }

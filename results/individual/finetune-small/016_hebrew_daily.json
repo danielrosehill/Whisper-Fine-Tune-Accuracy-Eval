@@ -1,0 +1,10 @@
+{
+  "audio_file": "016_hebrew_daily",
+  "model": "finetune-small",
+  "reference": "I need to stop by the makolet to pick up some bread and milk. The one on the corner closes early on Friday so I should go before noon.",
+  "hypothesis": "I need to stop by the makolet to pick up some bread and milk. The one on the corner closes early on Friday, so I should go before noon.",
+  "reference_normalized": "i need to stop by the makolet to pick up some bread and milk the one on the corner closes early on friday so i should go before noon",
+  "hypothesis_normalized": "i need to stop by the makolet to pick up some bread and milk the one on the corner closes early on friday so i should go before noon",
+  "wer": 0.0,
+  "duration_seconds": 0.7294256687164307
+}

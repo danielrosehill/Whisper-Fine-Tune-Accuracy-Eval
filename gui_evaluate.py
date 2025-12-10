@@ -118,7 +118,7 @@ def transcribe_with_whisper_cli(audio_path: Path, model_path: Path) -> tuple[str
         output_base = f.name[:-4]
 
     cmd = [
-        "whisper-cli",
+        "whisper-cli-vulkan",
         "-m", str(model_path),
         "-f", str(audio_path),
         "-l", "en",

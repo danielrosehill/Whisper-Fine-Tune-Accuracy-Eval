@@ -6,5 +6,5 @@
   "reference_normalized": "the repository has over 2000 stars on github i forked it last week and added some new features that i want to contribute upstream",
   "hypothesis_normalized": "the repository has over 2000 stars on github i forked it last week and added some new features that i want to contribute upstream",
   "wer": 0.0,
-  "duration_seconds": 1.3702285289764404
+  "duration_seconds": 0.41475605964660645
 }

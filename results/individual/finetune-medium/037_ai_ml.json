@@ -1,0 +1,10 @@
+{
+  "audio_file": "037_ai_ml",
+  "model": "finetune-medium",
+  "reference": "Word error rate measures transcription accuracy by counting insertions, deletions, and substitutions. A lower score means better accuracy compared to the ground truth.",
+  "hypothesis": "Word error rate measures transcription accuracy by counting insertions, deletions, and substitutions. A lower score means better accuracy compared to the ground truth.",
+  "reference_normalized": "word error rate measures transcription accuracy by counting insertions deletions and substitutions a lower score means better accuracy compared to the ground truth",
+  "hypothesis_normalized": "word error rate measures transcription accuracy by counting insertions deletions and substitutions a lower score means better accuracy compared to the ground truth",
+  "wer": 0.0,
+  "duration_seconds": 1.1062085628509521
+}

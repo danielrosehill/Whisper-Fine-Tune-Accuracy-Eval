@@ -1,0 +1,10 @@
+{
+  "audio_file": "018_hebrew_daily",
+  "model": "original-base",
+  "reference": "The misrad hapnim is closed on Friday afternoons and all day Saturday. You will need to come back on Sunday morning to submit your application.",
+  "hypothesis": "The misread up name is closed on Friday afternoons and all day Saturday. You will need to come back on Sunday morning to submit your application.",
+  "reference_normalized": "the misrad hapnim is closed on friday afternoons and all day saturday you will need to come back on sunday morning to submit your application",
+  "hypothesis_normalized": "the misread up name is closed on friday afternoons and all day saturday you will need to come back on sunday morning to submit your application",
+  "wer": 0.12,
+  "duration_seconds": 0.4294314384460449
+}

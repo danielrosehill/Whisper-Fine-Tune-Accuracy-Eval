@@ -1,0 +1,10 @@
+{
+  "audio_file": "012_tech_docker",
+  "model": "finetune-large",
+  "reference": "I built a new Docker image with all the dependencies included. The build process took about fifteen minutes because it had to compile some packages from source.",
+  "hypothesis": "I built a new Docker image with all the dependencies included. The build process took about 15 minutes because it had to compile some packages from source.",
+  "reference_normalized": "i built a new docker image with all the dependencies included the build process took about 15 minutes because it had to compile some packages from source",
+  "hypothesis_normalized": "i built a new docker image with all the dependencies included the build process took about 15 minutes because it had to compile some packages from source",
+  "wer": 0.0,
+  "duration_seconds": 0.9901318550109863
+}

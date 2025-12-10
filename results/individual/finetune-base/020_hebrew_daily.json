@@ -6,5 +6,5 @@
   "reference_normalized": "the kupat cholim sent me a reminder about my appointment i need to pick up my prescription from the pharmacy afterwards",
   "hypothesis_normalized": "the kupat holim sent me a reminder about my appointment i need to pick up my prescription from the pharmacy afterwards",
   "wer": 0.047619047619047616,
-  "duration_seconds": 1.354459524154663
+  "duration_seconds": 0.381364107131958
 }

@@ -6,5 +6,5 @@
   "reference_normalized": "the transformer model uses attention mechanisms to process sequences in parallel this makes training much faster than older recurrent neural network architectures",
   "hypothesis_normalized": "the transformer model uses attention mechanisms to process sequences in parallel this makes training much faster than older recurrent neural network architectures",
   "wer": 0.0,
-  "duration_seconds": 1.361349105834961
+  "duration_seconds": 0.393512487411499
 }

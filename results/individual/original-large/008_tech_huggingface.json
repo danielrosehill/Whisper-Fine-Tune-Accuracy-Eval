@@ -1,0 +1,10 @@
+{
+  "audio_file": "008_tech_huggingface",
+  "model": "original-large",
+  "reference": "Download the model weights from Hugging Face using the transformers library. The model is about 4 gigabytes so it might take a while on slower connections.",
+  "hypothesis": "Download the model weights from HuggingFace using the Transformers library. The model is about 4GB so it might take a while on slower connections.",
+  "reference_normalized": "download the model weights from hugging face using the transformers library the model is about 4 gigabytes so it might take a while on slower connections",
+  "hypothesis_normalized": "download the model weights from huggingface using the transformers library the model is about 4 gb so it might take a while on slower connections",
+  "wer": 0.11538461538461539,
+  "duration_seconds": 1.0729210376739502
+}

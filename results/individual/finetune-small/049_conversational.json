@@ -1,0 +1,10 @@
+{
+  "audio_file": "049_conversational",
+  "model": "finetune-small",
+  "reference": "Actually, I changed my mind about that. Can we go back to the original plan? I think it was simpler and easier to maintain in the long run.",
+  "hypothesis": "Actually, I changed my mind about that. Can we go back to the original plan? I think it was simpler and easier to maintain in the long run.",
+  "reference_normalized": "actually i changed my mind about that can we go back to the original plan i think it was simpler and easier to maintain in the long run",
+  "hypothesis_normalized": "actually i changed my mind about that can we go back to the original plan i think it was simpler and easier to maintain in the long run",
+  "wer": 0.0,
+  "duration_seconds": 0.5551114082336426
+}

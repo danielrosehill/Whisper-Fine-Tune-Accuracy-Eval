@@ -1,0 +1,10 @@
+{
+  "audio_file": "063_instructions",
+  "model": "finetune-tiny",
+  "reference": "Install the required packages by running pip install with the requirements file. Make sure the virtual environment is activated before running this command.",
+  "hypothesis": "Install the required packages by running pip install with the requirements file. Make sure the virtual environment is activated before running this command.",
+  "reference_normalized": "install the required packages by running pip install with the requirements file make sure the virtual environment is activated before running this command",
+  "hypothesis_normalized": "install the required packages by running pip install with the requirements file make sure the virtual environment is activated before running this command",
+  "wer": 0.0,
+  "duration_seconds": 0.23511886596679688
+}

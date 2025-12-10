@@ -1,0 +1,10 @@
+{
+  "audio_file": "056_narrative",
+  "model": "finetune-medium",
+  "reference": "The morning sun cast long shadows across the narrow streets of the old city. Merchants were setting up their stalls while the smell of fresh coffee drifted through the air.",
+  "hypothesis": "The morning sun cast long shadows across the narrow streets of the Old City. Merchants were setting up their stalls while the smell of fresh coffee drifted through the air.",
+  "reference_normalized": "the morning sun cast long shadows across the narrow streets of the old city merchants were setting up their stalls while the smell of fresh coffee drifted through the air",
+  "hypothesis_normalized": "the morning sun cast long shadows across the narrow streets of the old city merchants were setting up their stalls while the smell of fresh coffee drifted through the air",
+  "wer": 0.0,
+  "duration_seconds": 1.12843656539917
+}

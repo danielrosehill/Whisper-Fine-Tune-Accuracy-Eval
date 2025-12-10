@@ -1,0 +1,10 @@
+{
+  "audio_file": "048_conversational",
+  "model": "finetune-base",
+  "reference": "Let me know when you have a chance to look at this. No rush but I would appreciate your feedback before I merge it into the main branch.",
+  "hypothesis": "Let me know when you have a chance to look at this. No rush, but I would appreciate your feedback before I merge it into the main branch.",
+  "reference_normalized": "let me know when you have a chance to look at this no rush but i would appreciate your feedback before i merge it into the main branch",
+  "hypothesis_normalized": "let me know when you have a chance to look at this no rush but i would appreciate your feedback before i merge it into the main branch",
+  "wer": 0.0,
+  "duration_seconds": 0.4168703556060791
+}

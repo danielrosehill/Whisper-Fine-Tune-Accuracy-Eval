@@ -1,0 +1,10 @@
+{
+  "audio_file": "067_instructions",
+  "model": "finetune-small",
+  "reference": "Build the Docker image using the provided Dockerfile. Tag it with a meaningful version number so we can track different releases.",
+  "hypothesis": "Build the Docker image using the provided Docker file. Tag it with a meaningful version number so we can track different releases.",
+  "reference_normalized": "build the docker image using the provided dockerfile tag it with a meaningful version number so we can track different releases",
+  "hypothesis_normalized": "build the docker image using the provided docker file tag it with a meaningful version number so we can track different releases",
+  "wer": 0.09523809523809523,
+  "duration_seconds": 0.5220630168914795
+}

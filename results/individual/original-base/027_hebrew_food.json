@@ -1,0 +1,10 @@
+{
+  "audio_file": "027_hebrew_food",
+  "model": "original-base",
+  "reference": "The shuk is packed on Friday mornings. Everyone is buying fresh challah and vegetables for Shabbat dinner.",
+  "hypothesis": "The show is packed on Friday mornings. Everyone is buying fresh chala and vegetables for Shabbat dinner.",
+  "reference_normalized": "the shuk is packed on friday mornings everyone is buying fresh challah and vegetables for shabbat dinner",
+  "hypothesis_normalized": "the show is packed on friday mornings everyone is buying fresh chala and vegetables for shabbat dinner",
+  "wer": 0.11764705882352941,
+  "duration_seconds": 0.35578012466430664
+}

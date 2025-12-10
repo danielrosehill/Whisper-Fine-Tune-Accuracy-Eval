@@ -1,0 +1,10 @@
+{
+  "audio_file": "028_hebrew_food",
+  "model": "finetune-small",
+  "reference": "Would you like some more tahini with your sabich? The amba sauce is a bit spicy but it adds great flavor to the sandwich.",
+  "hypothesis": "Would you like some more tahini with your sabich? The ambasos is a bit spicy, but it adds great flavor to the sandwich.",
+  "reference_normalized": "would you like some more tahini with your sabich the amba sauce is a bit spicy but it adds great flavor to the sandwich",
+  "hypothesis_normalized": "would you like some more tahini with your sabich the ambasos is a bit spicy but it adds great flavor to the sandwich",
+  "wer": 0.08333333333333333,
+  "duration_seconds": 1.2718687057495117
+}

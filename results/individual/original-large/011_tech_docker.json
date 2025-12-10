@@ -1,0 +1,10 @@
+{
+  "audio_file": "011_tech_docker",
+  "model": "original-large",
+  "reference": "The Docker container is running on port eight thousand. You can check the logs using docker logs with the container name or ID.",
+  "hypothesis": "The Docker container is running in port 8000. You can check the logs using docker logs with the container name or ID.",
+  "reference_normalized": "the docker container is running on port 8000 you can check the logs using docker logs with the container name or id",
+  "hypothesis_normalized": "the docker container is running in port 8000 you can check the logs using docker logs with the container name or id",
+  "wer": 0.045454545454545456,
+  "duration_seconds": 0.9772951602935791
+}

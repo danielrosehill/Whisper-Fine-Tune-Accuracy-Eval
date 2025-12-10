@@ -1,0 +1,10 @@
+{
+  "audio_file": "087_mixed_workflow",
+  "model": "finetune-large",
+  "reference": "The Whisper model runs locally on my AMD GPU using ROCm. I converted it to CTranslate2 format for faster inference times.",
+  "hypothesis": "The Whisper model runs locally on my AMD GPU using Rockim. I converted it to C-Translate to format for faster inference times.",
+  "reference_normalized": "the whisper model runs locally on my amd gpu using rocm i converted it to ctranslate 2 format for faster inference times",
+  "hypothesis_normalized": "the whisper model runs locally on my amd gpu using rockim i converted it to c translate to format for faster inference times",
+  "wer": 0.18181818181818182,
+  "duration_seconds": 0.9952681064605713
+}

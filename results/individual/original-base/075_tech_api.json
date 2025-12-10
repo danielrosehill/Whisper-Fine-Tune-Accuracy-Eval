@@ -1,0 +1,10 @@
+{
+  "audio_file": "075_tech_api",
+  "model": "original-base",
+  "reference": "The REST API returns JSON responses for all endpoints. Authentication is handled using bearer tokens in the request header.",
+  "hypothesis": "The rest API returns JSON responses for all endpoints. Authentication is handled using bearer tokens in the request header.",
+  "reference_normalized": "the rest api returns json responses for all endpoints authentication is handled using bearer tokens in the request header",
+  "hypothesis_normalized": "the rest api returns json responses for all endpoints authentication is handled using bearer tokens in the request header",
+  "wer": 0.0,
+  "duration_seconds": 0.3912532329559326
+}

@@ -1,0 +1,10 @@
+{
+  "audio_file": "009_tech_huggingface",
+  "model": "finetune-small",
+  "reference": "The Hugging Face Hub has thousands of pre-trained models available for download. I usually filter by task type and sort by most downloads to find the best ones.",
+  "hypothesis": "The Hugging Face Hub has thousands of pre-trained models available for download. I usually filter by task type and sort by most downloads to find the best ones.",
+  "reference_normalized": "the hugging face hub has 1000s of pre trained models available for download i usually filter by task type and sort by most downloads to find the best ones",
+  "hypothesis_normalized": "the hugging face hub has 1000s of pre trained models available for download i usually filter by task type and sort by most downloads to find the best ones",
+  "wer": 0.0,
+  "duration_seconds": 0.823192834854126
+}

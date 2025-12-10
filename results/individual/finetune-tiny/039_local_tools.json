@@ -1,0 +1,10 @@
+{
+  "audio_file": "039_local_tools",
+  "model": "finetune-tiny",
+  "reference": "The ComfyUI workflow generates images using stable diffusion. I connected the nodes for the prompt, sampler, and VAE decoder in a custom pipeline.",
+  "hypothesis": "The comfy Y workflow generates images using stable diffusion. I connect the nodes for the prompt sampler and VAE decoder in a custom pipeline.",
+  "reference_normalized": "the comfyui workflow generates images using stable diffusion i connected the nodes for the prompt sampler and vae decoder in a custom pipeline",
+  "hypothesis_normalized": "the comfy y workflow generates images using stable diffusion i connect the nodes for the prompt sampler and vae decoder in a custom pipeline",
+  "wer": 0.13043478260869565,
+  "duration_seconds": 0.25502634048461914
+}

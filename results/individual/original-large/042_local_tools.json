@@ -1,0 +1,10 @@
+{
+  "audio_file": "042_local_tools",
+  "model": "original-large",
+  "reference": "I converted the model to GGML format for faster CPU inference. The quantized version loads in seconds and uses much less RAM than the original.",
+  "hypothesis": "I converted the model to GGML format for faster CPU inference. The quantized version loads in seconds and uses much less RAM than the original.",
+  "reference_normalized": "i converted the model to ggml format for faster cpu inference the quantized version loads in seconds and uses much less ram than the original",
+  "hypothesis_normalized": "i converted the model to ggml format for faster cpu inference the quantized version loads in seconds and uses much less ram than the original",
+  "wer": 0.0,
+  "duration_seconds": 0.9732348918914795
+}

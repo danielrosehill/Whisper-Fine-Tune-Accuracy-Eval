@@ -1,0 +1,10 @@
+{
+  "audio_file": "013_tech_docker",
+  "model": "finetune-small",
+  "reference": "Run docker compose up to start all the services. The configuration file defines three containers that need to communicate with each other over a shared network.",
+  "hypothesis": "Run Docker ComposeUp to start all the services. The configuration file defines three containers that need to communicate with each other over a shared network.",
+  "reference_normalized": "run docker compose up to start all the services the configuration file defines 3 containers that need to communicate with each other over a shared network",
+  "hypothesis_normalized": "run docker composeup to start all the services the configuration file defines 3 containers that need to communicate with each other over a shared network",
+  "wer": 0.07692307692307693,
+  "duration_seconds": 0.720024824142456
+}

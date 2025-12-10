@@ -6,5 +6,5 @@
   "reference_normalized": "fine tuning a large language model requires adjusting the learning rate carefully too high and the model forgets its pre trained knowledge too low and it learns nothing new",
   "hypothesis_normalized": "fine tuning a large language model requires adjusting the learning rate carefully too fine and the model forgets its pre trained knowledge too low and it learns nothing new",
   "wer": 0.034482758620689655,
-  "duration_seconds": 1.4784843921661377
+  "duration_seconds": 0.47840428352355957
 }

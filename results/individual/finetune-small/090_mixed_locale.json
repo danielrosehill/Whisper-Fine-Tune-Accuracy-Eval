@@ -1,0 +1,10 @@
+{
+  "audio_file": "090_mixed_locale",
+  "model": "finetune-small",
+  "reference": "Working remotely from Israel has its challenges with timezone differences. Most meetings with US teams happen in the late afternoon or evening.",
+  "hypothesis": "Working remotely from Israel has its challenges with time zone differences. Most meetings with U.S. teams happen in the late afternoon or evening.",
+  "reference_normalized": "working remotely from israel has its challenges with timezone differences most meetings with us teams happen in the late afternoon or evening",
+  "hypothesis_normalized": "working remotely from israel has its challenges with time zone differences most meetings with u s teams happen in the late afternoon or evening",
+  "wer": 0.18181818181818182,
+  "duration_seconds": 0.5320038795471191
+}

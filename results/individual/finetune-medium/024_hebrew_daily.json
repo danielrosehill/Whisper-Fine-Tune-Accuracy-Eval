@@ -1,0 +1,10 @@
+{
+  "audio_file": "024_hebrew_daily",
+  "model": "finetune-medium",
+  "reference": "The iriya office hours changed last week. They now open at eight thirty instead of nine in the morning.",
+  "hypothesis": "The iriyah office hours changed last week. They now open at 8:30 instead of 9 in the morning.",
+  "reference_normalized": "the iriya office hours changed last week they now open at 830 instead of 9 in the morning",
+  "hypothesis_normalized": "the iriyah office hours changed last week they now open at 8 30 instead of 9 in the morning",
+  "wer": 0.16666666666666666,
+  "duration_seconds": 1.004256010055542
+}

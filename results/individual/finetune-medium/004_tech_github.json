@@ -1,0 +1,10 @@
+{
+  "audio_file": "004_tech_github",
+  "model": "finetune-medium",
+  "reference": "I need to update the GitHub Actions workflow to include the new test suite. The current pipeline only runs unit tests but we need integration tests too.",
+  "hypothesis": "I need to update the GitHub actions workflow to include the new test suite. The current pipeline only runs unit tests, but we need integration tests too.",
+  "reference_normalized": "i need to update the github actions workflow to include the new test suite the current pipeline only runs unit tests but we need integration tests too",
+  "hypothesis_normalized": "i need to update the github actions workflow to include the new test suite the current pipeline only runs unit tests but we need integration tests too",
+  "wer": 0.0,
+  "duration_seconds": 1.1286072731018066
+}

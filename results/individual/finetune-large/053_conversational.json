@@ -1,0 +1,10 @@
+{
+  "audio_file": "053_conversational",
+  "model": "finetune-large",
+  "reference": "I tried that already and it did not work. Maybe there is something wrong with my environment or I am missing a dependency somewhere.",
+  "hypothesis": "I tried that already and it did not work. Maybe there is something wrong with my environment or I am missing a dependency somewhere?",
+  "reference_normalized": "i tried that already and it did not work maybe there is something wrong with my environment or i am missing a dependency somewhere",
+  "hypothesis_normalized": "i tried that already and it did not work maybe there is something wrong with my environment or i am missing a dependency somewhere",
+  "wer": 0.0,
+  "duration_seconds": 0.9732835292816162
+}

@@ -6,5 +6,5 @@
   "reference_normalized": "the embeddings capture semantic meaning in a high dimensional vector space similar concepts end up close together which enables semantic search",
   "hypothesis_normalized": "the embeddings capture semantic meaning in a high dimensional vector space similar concepts end up close together which enables semantic search",
   "wer": 0.0,
-  "duration_seconds": 1.3633325099945068
+  "duration_seconds": 0.38472843170166016
 }

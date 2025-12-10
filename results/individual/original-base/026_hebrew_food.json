@@ -1,0 +1,10 @@
+{
+  "audio_file": "026_hebrew_food",
+  "model": "original-base",
+  "reference": "I ordered some shawarma and falafel for lunch. The hummus here is really good and they give you plenty of pita bread on the side.",
+  "hypothesis": "I ordered some shawarma and falafel for lunch. The hummus here is really good and they give you plenty of pita bread on the site.",
+  "reference_normalized": "i ordered some shawarma and falafel for lunch the hummus here is really good and they give you plenty of pita bread on the side",
+  "hypothesis_normalized": "i ordered some shawarma and falafel for lunch the hummus here is really good and they give you plenty of pita bread on the site",
+  "wer": 0.04,
+  "duration_seconds": 0.4376261234283447
+}

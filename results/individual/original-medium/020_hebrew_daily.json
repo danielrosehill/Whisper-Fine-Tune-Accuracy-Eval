@@ -1,0 +1,10 @@
+{
+  "audio_file": "020_hebrew_daily",
+  "model": "original-medium",
+  "reference": "The kupat cholim sent me a reminder about my appointment. I need to pick up my prescription from the pharmacy afterwards.",
+  "hypothesis": "The Kabbat Cholim sent me a reminder about my appointment. I need to pick up my prescription from the pharmacy afterwards.",
+  "reference_normalized": "the kupat cholim sent me a reminder about my appointment i need to pick up my prescription from the pharmacy afterwards",
+  "hypothesis_normalized": "the kabbat cholim sent me a reminder about my appointment i need to pick up my prescription from the pharmacy afterwards",
+  "wer": 0.047619047619047616,
+  "duration_seconds": 1.0404672622680664
+}

@@ -6,5 +6,5 @@
   "reference_normalized": "the docker container is running on port 8000 you can check the logs using docker logs with the container name or id",
   "hypothesis_normalized": "the docker container is running on port 8000 you can check the logs using docker logs with the container name or id",
   "wer": 0.0,
-  "duration_seconds": 1.3501651287078857
+  "duration_seconds": 0.37635087966918945
 }

@@ -1,0 +1,10 @@
+{
+  "audio_file": "085_mixed_workflow",
+  "model": "finetune-large",
+  "reference": "The deployment pipeline runs automatically when we merge to main. It builds the Docker image and pushes it to the container registry.",
+  "hypothesis": "The deployment pipeline runs automatically when we merge to main. It builds the Docker image and pushes it to the container registry.",
+  "reference_normalized": "the deployment pipeline runs automatically when we merge to main it builds the docker image and pushes it to the container registry",
+  "hypothesis_normalized": "the deployment pipeline runs automatically when we merge to main it builds the docker image and pushes it to the container registry",
+  "wer": 0.0,
+  "duration_seconds": 0.9687693119049072
+}

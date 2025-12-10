@@ -1,0 +1,10 @@
+{
+  "audio_file": "091_tech_web",
+  "model": "finetune-tiny",
+  "reference": "The React component re-renders whenever the state changes. Use the memo hook to prevent unnecessary renders and improve performance.",
+  "hypothesis": "The React component renders whenever the state changes. Use the memo hook to prevent unnecessary renders and approve performance.",
+  "reference_normalized": "the react component re renders whenever the state changes use the memo hook to prevent unnecessary renders and improve performance",
+  "hypothesis_normalized": "the react component renders whenever the state changes use the memo hook to prevent unnecessary renders and approve performance",
+  "wer": 0.1,
+  "duration_seconds": 0.23013043403625488
+}

@@ -1,0 +1,10 @@
+{
+  "audio_file": "025_hebrew_daily",
+  "model": "finetune-tiny",
+  "reference": "The vaad habayit meeting is scheduled for next Tuesday evening. We need to discuss the elevator repairs and the new security system.",
+  "hypothesis": "The vaad bayet meeting is scheduled for next Tuesday evening. We need to discuss the elevator repairs and the new security system.",
+  "reference_normalized": "the vaad habayit meeting is scheduled for next tuesday evening we need to discuss the elevator repairs and the new security system",
+  "hypothesis_normalized": "the vaad bayet meeting is scheduled for next tuesday evening we need to discuss the elevator repairs and the new security system",
+  "wer": 0.045454545454545456,
+  "duration_seconds": 0.2340538501739502
+}

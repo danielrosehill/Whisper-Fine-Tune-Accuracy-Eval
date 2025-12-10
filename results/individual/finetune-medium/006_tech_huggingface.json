@@ -1,0 +1,10 @@
+{
+  "audio_file": "006_tech_huggingface",
+  "model": "finetune-medium",
+  "reference": "I uploaded the dataset to Hugging Face and made it publicly available. The model card still needs some work before we can share it with the community.",
+  "hypothesis": "I uploaded the data set to Hugging Face and made it publicly available. The model card still needs some work before we can share it with the community.",
+  "reference_normalized": "i uploaded the dataset to hugging face and made it publicly available the model card still needs some work before we can share it with the community",
+  "hypothesis_normalized": "i uploaded the data set to hugging face and made it publicly available the model card still needs some work before we can share it with the community",
+  "wer": 0.07407407407407407,
+  "duration_seconds": 1.0620863437652588
+}

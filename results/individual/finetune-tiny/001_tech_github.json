@@ -1,0 +1,10 @@
+{
+  "audio_file": "001_tech_github",
+  "model": "finetune-tiny",
+  "reference": "I pushed the changes to GitHub and opened a pull request against the main branch. The CI pipeline is running now and should finish in a few minutes.",
+  "hypothesis": "I put the changes to GitHub and opened a pull-up class against the main branch. The CI pipeline is running now and should finish in a few minutes.",
+  "reference_normalized": "i pushed the changes to github and opened a pull request against the main branch the ci pipeline is running now and should finish in a few minutes",
+  "hypothesis_normalized": "i put the changes to github and opened a pull up class against the main branch the ci pipeline is running now and should finish in a few minutes",
+  "wer": 0.10714285714285714,
+  "duration_seconds": 0.26900362968444824
+}

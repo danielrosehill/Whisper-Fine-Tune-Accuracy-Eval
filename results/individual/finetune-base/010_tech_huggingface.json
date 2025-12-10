@@ -6,5 +6,5 @@
   "reference_normalized": "create a new hugging face space with the gradio template it provides a simple interface for demoing machine learning models without writing much frontend code",
   "hypothesis_normalized": "create a new hugging face space with the gradio template it provides a simple interface for demoing machine learning models without writing much front end code",
   "wer": 0.08,
-  "duration_seconds": 1.4180190563201904
+  "duration_seconds": 0.41640424728393555
 }

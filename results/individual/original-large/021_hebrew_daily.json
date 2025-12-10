@@ -1,0 +1,10 @@
+{
+  "audio_file": "021_hebrew_daily",
+  "model": "original-large",
+  "reference": "I got a package from the doar today. The delivery person left a note saying I can pick it up at the local branch tomorrow.",
+  "hypothesis": "I got a package from the door today. The delivery person left a note saying I can pick it up at the local branch tomorrow.",
+  "reference_normalized": "i got a package from the doar today the delivery person left a note saying i can pick it up at the local branch tomorrow",
+  "hypothesis_normalized": "i got a package from the door today the delivery person left a note saying i can pick it up at the local branch tomorrow",
+  "wer": 0.04,
+  "duration_seconds": 1.008746862411499
+}

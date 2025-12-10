@@ -1,0 +1,10 @@
+{
+  "audio_file": "043_local_tools",
+  "model": "finetune-small",
+  "reference": "The CTranslate2 version of the model runs inference twice as fast. It optimizes the computation graph and supports int8 quantization out of the box.",
+  "hypothesis": "The C-translate II version of the model runs inference twice as fast. It optimizes the computation graph and supports intake quantization out of the box.",
+  "reference_normalized": "the ctranslate 2 version of the model runs inference twice as fast it optimizes the computation graph and supports int 8 quantization out of the box",
+  "hypothesis_normalized": "the c translate ii version of the model runs inference twice as fast it optimizes the computation graph and supports intake quantization out of the box",
+  "wer": 0.19230769230769232,
+  "duration_seconds": 0.562889814376831
+}

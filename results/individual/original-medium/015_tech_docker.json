@@ -1,0 +1,10 @@
+{
+  "audio_file": "015_tech_docker",
+  "model": "original-medium",
+  "reference": "Pull the latest Docker image from the registry before deploying. The tag should match the version we tested in the staging environment.",
+  "hypothesis": "Pull the latest Docker image from the registry before deploying. The tag should match the version we tested in the staging environment.",
+  "reference_normalized": "pull the latest docker image from the registry before deploying the tag should match the version we tested in the staging environment",
+  "hypothesis_normalized": "pull the latest docker image from the registry before deploying the tag should match the version we tested in the staging environment",
+  "wer": 0.0,
+  "duration_seconds": 1.0104589462280273
+}

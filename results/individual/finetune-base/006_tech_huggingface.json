@@ -6,5 +6,5 @@
   "reference_normalized": "i uploaded the dataset to hugging face and made it publicly available the model card still needs some work before we can share it with the community",
   "hypothesis_normalized": "i uploaded the data set to hugging face and made it publicly available the model cards still need some work before we can share it with the community",
   "wer": 0.14814814814814814,
-  "duration_seconds": 1.3814001083374023
+  "duration_seconds": 0.4107229709625244
 }

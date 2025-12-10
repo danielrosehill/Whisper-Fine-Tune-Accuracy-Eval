@@ -1,0 +1,10 @@
+{
+  "audio_file": "071_tech_linux",
+  "model": "finetune-medium",
+  "reference": "Ubuntu runs well on this workstation with KDE Plasma as the desktop environment. Wayland provides smoother graphics than the older display server.",
+  "hypothesis": "Abuntu runs well on this workstation with KDE Plasma as the desktop environment. Wayland provides smoother graphics than the older display server.",
+  "reference_normalized": "ubuntu runs well on this workstation with kde plasma as the desktop environment wayland provides smoother graphics than the older display server",
+  "hypothesis_normalized": "abuntu runs well on this workstation with kde plasma as the desktop environment wayland provides smoother graphics than the older display server",
+  "wer": 0.045454545454545456,
+  "duration_seconds": 1.251112937927246
+}

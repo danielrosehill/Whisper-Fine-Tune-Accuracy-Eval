@@ -1,0 +1,10 @@
+{
+  "audio_file": "038_local_tools",
+  "model": "original-base",
+  "reference": "Ollama is running on port eleven thousand four hundred thirty four. I pulled the latest Llama model and it works great for local inference.",
+  "hypothesis": "Olam is running in port 11,434. I pull the latest Lama model and it works great for local inference.",
+  "reference_normalized": "ollama is running on port 11434 i pulled the latest llama model and it works great for local inference",
+  "hypothesis_normalized": "olam is running in port 11434 i pull the latest lama model and it works great for local inference",
+  "wer": 0.21052631578947367,
+  "duration_seconds": 0.41024255752563477
+}

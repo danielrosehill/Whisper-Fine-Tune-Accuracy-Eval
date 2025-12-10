@@ -6,5 +6,5 @@
   "reference_normalized": "the hugging face space is running on a free cpu instance we might need to upgrade to a gpu runtime if the inference time is too slow for users",
   "hypothesis_normalized": "the hugging face space is running on a free cpu instance we might need to upgrade to a gpu runtime if the inference time is too slow for users",
   "wer": 0.0,
-  "duration_seconds": 1.3818507194519043
+  "duration_seconds": 0.41800928115844727
 }

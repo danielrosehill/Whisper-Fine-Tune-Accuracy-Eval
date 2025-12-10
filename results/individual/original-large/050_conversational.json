@@ -1,0 +1,10 @@
+{
+  "audio_file": "050_conversational",
+  "model": "original-large",
+  "reference": "Hold on, let me check something real quick. I remember seeing an error message about this yesterday but I cannot recall what it said exactly.",
+  "hypothesis": "Hold on, let me check something real quick. I remember seeing an error message about this yesterday, but I cannot recall what it said exactly.",
+  "reference_normalized": "hold on let me check something real quick i remember seeing an error message about this yesterday but i cannot recall what it said exactly",
+  "hypothesis_normalized": "hold on let me check something real quick i remember seeing an error message about this yesterday but i cannot recall what it said exactly",
+  "wer": 0.0,
+  "duration_seconds": 1.0435469150543213
+}

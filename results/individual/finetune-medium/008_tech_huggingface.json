@@ -1,0 +1,10 @@
+{
+  "audio_file": "008_tech_huggingface",
+  "model": "finetune-medium",
+  "reference": "Download the model weights from Hugging Face using the transformers library. The model is about 4 gigabytes so it might take a while on slower connections.",
+  "hypothesis": "Download the model weights from Hugging Face using the Transformers library. The model is about 4 GB, so it might take a while on slower connections.",
+  "reference_normalized": "download the model weights from hugging face using the transformers library the model is about 4 gigabytes so it might take a while on slower connections",
+  "hypothesis_normalized": "download the model weights from hugging face using the transformers library the model is about 4 gb so it might take a while on slower connections",
+  "wer": 0.038461538461538464,
+  "duration_seconds": 1.0872313976287842
+}

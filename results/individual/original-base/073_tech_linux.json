@@ -1,0 +1,10 @@
+{
+  "audio_file": "073_tech_linux",
+  "model": "original-base",
+  "reference": "The package manager can install software from the official repositories. Run apt update first to refresh the list of available packages.",
+  "hypothesis": "The package manager can install software from the official repositories. Run APT upgrade first to refresh the list of available packages.",
+  "reference_normalized": "the package manager can install software from the official repositories run apt update 1st to refresh the list of available packages",
+  "hypothesis_normalized": "the package manager can install software from the official repositories run apt upgrade 1st to refresh the list of available packages",
+  "wer": 0.047619047619047616,
+  "duration_seconds": 0.39235544204711914
+}

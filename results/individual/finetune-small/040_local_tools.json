@@ -1,0 +1,10 @@
+{
+  "audio_file": "040_local_tools",
+  "model": "finetune-small",
+  "reference": "ROCm provides GPU acceleration for AMD hardware. I had to set the HSA override GFX version to get it working properly on my card.",
+  "hypothesis": "Rockim provides GPU acceleration for AMD hardware. I had to set the HSA override GFX version to get it working properly on my card.",
+  "reference_normalized": "rocm provides gpu acceleration for amd hardware i had to set the hsa override gfx version to get it working properly on my card",
+  "hypothesis_normalized": "rockim provides gpu acceleration for amd hardware i had to set the hsa override gfx version to get it working properly on my card",
+  "wer": 0.041666666666666664,
+  "duration_seconds": 0.5534205436706543
+}

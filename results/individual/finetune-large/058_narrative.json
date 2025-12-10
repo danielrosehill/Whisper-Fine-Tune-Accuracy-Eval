@@ -1,0 +1,10 @@
+{
+  "audio_file": "058_narrative",
+  "model": "finetune-large",
+  "reference": "The ancient stone walls had stood for thousands of years, bearing witness to countless generations. Each crack and crevice held stories of the past.",
+  "hypothesis": "The ancient stone walls had stood for thousands of years, bearing witness to countless generations. Each crack and crevice held stories of the past.",
+  "reference_normalized": "the ancient stone walls had stood for 1000s of years bearing witness to countless generations each crack and crevice held stories of the past",
+  "hypothesis_normalized": "the ancient stone walls had stood for 1000s of years bearing witness to countless generations each crack and crevice held stories of the past",
+  "wer": 0.0,
+  "duration_seconds": 0.9931583404541016
+}

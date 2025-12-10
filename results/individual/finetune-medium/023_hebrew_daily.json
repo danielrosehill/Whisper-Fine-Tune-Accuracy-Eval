@@ -1,0 +1,10 @@
+{
+  "audio_file": "023_hebrew_daily",
+  "model": "finetune-medium",
+  "reference": "Let's meet at the tachana merkazit around three o'clock. I will be waiting near the entrance by the coffee shop.",
+  "hypothesis": "Let's meet at the tachana merkazit around three o'clock. I will be waiting near the entrance by the coffee shop.",
+  "reference_normalized": "let us meet at the tachana merkazit around 30 clock i will be waiting near the entrance by the coffee shop",
+  "hypothesis_normalized": "let us meet at the tachana merkazit around 30 clock i will be waiting near the entrance by the coffee shop",
+  "wer": 0.0,
+  "duration_seconds": 1.0332920551300049
+}

@@ -6,5 +6,5 @@
   "reference_normalized": "check the github issues page for any bug reports someone opened a new issue about the authentication flow not working properly on mobile devices",
   "hypothesis_normalized": "check the github issues page for any bug reports someone opened a new issue about the authentication flow now working properly on mobile devices",
   "wer": 0.041666666666666664,
-  "duration_seconds": 1.375795841217041
+  "duration_seconds": 0.39522409439086914
 }

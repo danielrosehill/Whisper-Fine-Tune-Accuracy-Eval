@@ -1,0 +1,10 @@
+{
+  "audio_file": "082_tech_python",
+  "model": "finetune-tiny",
+  "reference": "Pydantic validates the input data and converts it to the correct types. It raises clear error messages when the data does not match the expected schema.",
+  "hypothesis": "Pidantic validates the input data and converts it to the correct types. It raises clear error messages when the data does not match the expected schema.",
+  "reference_normalized": "pydantic validates the input data and converts it to the correct types it raises clear error messages when the data does not match the expected schema",
+  "hypothesis_normalized": "pidantic validates the input data and converts it to the correct types it raises clear error messages when the data does not match the expected schema",
+  "wer": 0.038461538461538464,
+  "duration_seconds": 0.2602269649505615
+}

@@ -6,5 +6,5 @@
   "reference_normalized": "pull the latest docker image from the registry before deploying the tag should match the version we tested in the staging environment",
   "hypothesis_normalized": "pull the latest docker image from the registry before deploying the tag should match the version we tested in the staging environment",
   "wer": 0.0,
-  "duration_seconds": 1.3413918018341064
+  "duration_seconds": 0.3648645877838135
 }

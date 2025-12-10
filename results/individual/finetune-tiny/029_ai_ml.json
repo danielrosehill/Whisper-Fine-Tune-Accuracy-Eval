@@ -1,0 +1,10 @@
+{
+  "audio_file": "029_ai_ml",
+  "model": "finetune-tiny",
+  "reference": "The transformer model uses attention mechanisms to process sequences in parallel. This makes training much faster than older recurrent neural network architectures.",
+  "hypothesis": "The transformer model uses attention mechanisms to process sequences in parallel. This makes training much faster than older, recurrent neural network architectures.",
+  "reference_normalized": "the transformer model uses attention mechanisms to process sequences in parallel this makes training much faster than older recurrent neural network architectures",
+  "hypothesis_normalized": "the transformer model uses attention mechanisms to process sequences in parallel this makes training much faster than older recurrent neural network architectures",
+  "wer": 0.0,
+  "duration_seconds": 0.24020862579345703
+}

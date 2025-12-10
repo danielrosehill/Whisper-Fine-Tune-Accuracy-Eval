@@ -1,0 +1,10 @@
+{
+  "audio_file": "031_ai_ml",
+  "model": "original-base",
+  "reference": "The embeddings capture semantic meaning in a high dimensional vector space. Similar concepts end up close together which enables semantic search.",
+  "hypothesis": "The embeddings capture semantic meaning in a high-dimensional vector space. Similar concepts end up close together, which enables semantic search.",
+  "reference_normalized": "the embeddings capture semantic meaning in a high dimensional vector space similar concepts end up close together which enables semantic search",
+  "hypothesis_normalized": "the embeddings capture semantic meaning in a high dimensional vector space similar concepts end up close together which enables semantic search",
+  "wer": 0.0,
+  "duration_seconds": 0.3895454406738281
+}

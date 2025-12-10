@@ -1,0 +1,10 @@
+{
+  "audio_file": "033_ai_ml",
+  "model": "finetune-large",
+  "reference": "Prompt engineering is about crafting inputs that guide the model toward desired outputs. Small changes in wording can dramatically affect the quality of responses.",
+  "hypothesis": "Prompt engineering is about crafting inputs that guide the model towards desired outputs. Small changes in wording can dramatically affect the quality of responses.",
+  "reference_normalized": "prompt engineering is about crafting inputs that guide the model toward desired outputs small changes in wording can dramatically affect the quality of responses",
+  "hypothesis_normalized": "prompt engineering is about crafting inputs that guide the model towards desired outputs small changes in wording can dramatically affect the quality of responses",
+  "wer": 0.041666666666666664,
+  "duration_seconds": 0.992901086807251
+}

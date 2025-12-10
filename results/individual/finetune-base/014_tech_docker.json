@@ -6,5 +6,5 @@
   "reference_normalized": "the docker volume persists data between container restarts without it we would lose all the database contents every time the container stops",
   "hypothesis_normalized": "the docker volume presses data between container restarts without it we would lose all the database contents every time the container stops",
   "wer": 0.045454545454545456,
-  "duration_seconds": 1.3337032794952393
+  "duration_seconds": 0.3884296417236328
 }

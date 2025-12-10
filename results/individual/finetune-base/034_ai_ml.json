@@ -6,5 +6,5 @@
   "reference_normalized": "the inference speed depends on batch size and model quantization using 4 bit quantization cuts memory usage in half with minimal impact on output quality",
   "hypothesis_normalized": "the inference speed depends on batch size and model quantization using a 4 bit quantization cuts memory usage in half with minimal impact on output quality",
   "wer": 0.04,
-  "duration_seconds": 1.4047365188598633
+  "duration_seconds": 0.4212608337402344
 }

@@ -1,0 +1,10 @@
+{
+  "audio_file": "081_tech_python",
+  "model": "finetune-small",
+  "reference": "The async function uses await to pause execution until the coroutine completes. This allows other tasks to run concurrently without blocking.",
+  "hypothesis": "The async function uses await to pause execution until the co-routine completes. This allows other tasks to run concurrently without blocking.",
+  "reference_normalized": "the async function uses await to pause execution until the coroutine completes this allows other tasks to run concurrently without blocking",
+  "hypothesis_normalized": "the async function uses await to pause execution until the co routine completes this allows other tasks to run concurrently without blocking",
+  "wer": 0.09523809523809523,
+  "duration_seconds": 0.5354387760162354
+}

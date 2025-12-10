@@ -1,0 +1,10 @@
+{
+  "audio_file": "068_instructions",
+  "model": "original-base",
+  "reference": "Set the environment variables before starting the application. The API keys should be stored securely and never committed to version control.",
+  "hypothesis": "Set the environment variables before starting the application. The API keys should be stored securely and never committed to version control.",
+  "reference_normalized": "set the environment variables before starting the application the api keys should be stored securely and never committed to version control",
+  "hypothesis_normalized": "set the environment variables before starting the application the api keys should be stored securely and never committed to version control",
+  "wer": 0.0,
+  "duration_seconds": 0.3726780414581299
+}
