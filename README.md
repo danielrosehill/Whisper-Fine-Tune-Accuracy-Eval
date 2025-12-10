@@ -23,20 +23,23 @@ That said, the findings are instructive—particularly for understanding where f
 
 ### Word Error Rate Comparison
 
-| Model Size | Fine-tuned | Original | Improvement |
-|------------|------------|----------|-------------|
-| **tiny** | 6.59% | 7.85% | **+16% better** |
-| **base** | 5.02% | 5.46% | **+8% better** |
-| **small** | 3.45% | 3.96% | **+13% better** |
-| **medium** | 2.96% | 2.71% | -9% worse |
-| **large-v3-turbo** | 3.01% | 2.77% | -9% worse |
+| Model Size | Fine-tuned | Original | Result |
+|------------|------------|----------|--------|
+| **tiny** | 6.59% | 7.85% | **Fine-tune better (+16%)** |
+| **base** | 5.02% | 5.46% | **Fine-tune better (+8%)** |
+| **small** | 3.45% | 3.96% | **Fine-tune better (+13%)** |
+| **medium** | 2.96% | 2.71% | Fine-tune worse (-9%) |
+| **large-v3-turbo** | 3.01% | 2.77% | Fine-tune worse (-9%) |
 
 ### Key Findings
 
-- **Fine-tuning improves smaller models significantly** - tiny, base, and small all show meaningful WER reductions
-- **Larger models don't benefit from fine-tuning** - medium and large perform slightly better without it
+- **Fine-tuning improves smaller models significantly** - tiny, base, and small all show meaningful WER reductions (8-16%)
+- **Larger models don't benefit from this fine-tune** - medium and large-v3-turbo performed slightly worse with fine-tuning
+- **Promising for edge/mobile deployment** - The smaller models (tiny, base, small) that benefit most from fine-tuning are also the models most suitable for resource-constrained environments
 - **Best value:** Fine-tuned small model (3.45% WER, ~0.8s inference)
 - **Best accuracy:** Original medium model (2.71% WER)
+
+![Fine-Tuning Impact](visualizations/finetune_improvement.png)
 
 ![WER Comparison](visualizations/wer_comparison.png)
 ![Inference Time Comparison](visualizations/inference_time_comparison.png)
@@ -47,6 +50,11 @@ That said, the findings are instructive—particularly for understanding where f
 **Original OpenAI (GGML format):** tiny, base, small, medium, large-v3-turbo
 
 Fine-tuned models: [danielrosehill/whisper-finetunes](https://huggingface.co/danielrosehill)
+
+## Datasets
+
+- **Audio dataset:** [Small-STT-Eval-Audio-Dataset](https://huggingface.co/datasets/danielrosehill/Small-STT-Eval-Audio-Dataset)
+- **Evaluation results:** [STT-Fine-Tune-Eval-101225](https://huggingface.co/datasets/danielrosehill/STT-Fine-Tune-Eval-101225) (also in repo)
 
 ## Methodology
 

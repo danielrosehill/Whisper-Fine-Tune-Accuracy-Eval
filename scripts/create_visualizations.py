@@ -115,6 +115,60 @@ def create_inference_time_comparison():
     plt.close()
     print(f"Saved: {output_dir / 'inference_time_comparison.png'}")
 
+def create_improvement_chart():
+    """Create chart showing WER improvement/degradation from fine-tuning."""
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    # Calculate percentage improvement (positive = better, negative = worse)
+    improvements = [((orig - ft) / orig) * 100 for ft, orig in zip(finetune_wer, original_wer)]
+
+    x = np.arange(len(models_short))
+
+    # Color bars based on improvement (green) or degradation (red)
+    bar_colors = ['#2ECC71' if imp > 0 else '#E74C3C' for imp in improvements]
+
+    bars = ax.bar(x, improvements, color=bar_colors, edgecolor='black', linewidth=0.5)
+
+    # Add zero baseline
+    ax.axhline(y=0, color='black', linestyle='-', linewidth=1.5)
+
+    ax.set_xlabel('Model Size', fontsize=12)
+    ax.set_ylabel('WER Improvement (%)', fontsize=12)
+    ax.set_title('Fine-Tuning Impact on Word Error Rate\n(Positive = Improvement, Negative = Degradation)',
+                 fontsize=14, fontweight='bold')
+    ax.set_xticks(x)
+    ax.set_xticklabels(models_short)
+
+    # Symmetric y-axis for visual balance
+    max_abs = max(abs(min(improvements)), abs(max(improvements)))
+    ax.set_ylim(-max_abs * 1.3, max_abs * 1.3)
+
+    # Add value labels on bars
+    for bar, imp in zip(bars, improvements):
+        height = bar.get_height()
+        va = 'bottom' if height >= 0 else 'top'
+        offset = 3 if height >= 0 else -3
+        label = f'+{imp:.1f}%' if imp > 0 else f'{imp:.1f}%'
+        ax.annotate(label,
+                    xy=(bar.get_x() + bar.get_width() / 2, height),
+                    xytext=(0, offset), textcoords="offset points",
+                    ha='center', va=va, fontsize=11, fontweight='bold')
+
+    # Add legend
+    from matplotlib.patches import Patch
+    legend_elements = [Patch(facecolor='#2ECC71', edgecolor='black', label='Improvement'),
+                       Patch(facecolor='#E74C3C', edgecolor='black', label='Degradation')]
+    ax.legend(handles=legend_elements, loc='upper right')
+
+    # Add grid for readability
+    ax.yaxis.grid(True, linestyle='--', alpha=0.7)
+    ax.set_axisbelow(True)
+
+    plt.tight_layout()
+    plt.savefig(output_dir / 'finetune_improvement.png', dpi=150, bbox_inches='tight')
+    plt.close()
+    print(f"Saved: {output_dir / 'finetune_improvement.png'}")
+
 def create_combined_chart():
     """Create a combined chart showing both WER and inference time."""
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
@@ -171,5 +225,6 @@ def create_combined_chart():
 if __name__ == '__main__':
     create_wer_comparison()
     create_inference_time_comparison()
+    create_improvement_chart()
     create_combined_chart()
     print("\nAll visualizations created successfully!")
