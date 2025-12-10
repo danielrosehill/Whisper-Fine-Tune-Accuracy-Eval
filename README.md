@@ -1,6 +1,6 @@
-# Fine-Tune Accuracy Evaluation
+# Does Fine-Tuning Whisper Reduce Word Error Rate / Improve Accuracsy?
 
-Evaluates fine-tuned Whisper STT models against original OpenAI models using Word Error Rate (WER).
+## "Back of the envelope eval on local inference
 
 ## Results
 
